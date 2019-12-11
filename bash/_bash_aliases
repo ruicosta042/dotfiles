@@ -1,0 +1,19 @@
+# ~/.bash_aliases: executed by bash(1) for non-login shells.
+
+# group directories first: https://superuser.com/a/109546
+# show dotfiles first: https://superuser.com/a/448294
+if test "$(uname)" = "Darwin" ; then
+  alias dircolors='gdircolors'
+  alias ls='LC_COLLATE=en_GB.UTF-8 gls -lhFG --color=auto --group-directories-first'
+elif test "$(lsb_release -is)" = "Ubuntu" ; then
+  # TODO: show dotfiles first
+  alias ls='LC_COLLATE=C.UTF-8 ls -Gh --color=auto --group-directories-first'
+fi
+
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias cat='bat'
+alias top="htop"
