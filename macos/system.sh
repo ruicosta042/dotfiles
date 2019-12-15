@@ -15,7 +15,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew update
 brew install caskroom/cask/brew-cask 2> /dev/null
 brew install coreutils
-brew install findutils
 brew install gnu-sed
 brew install grep
 brew install moreutils
@@ -24,7 +23,6 @@ brew install python
 cat << EOT >> "bash/bash_profile"
 
 # GNU command line utilities
-export PATH=/usr/local/opt/findutils/libexec/gnubin:\$PATH
 export PATH=/usr/local/opt/grep/libexec/gnubin:\$PATH
 
 EOT
