@@ -51,6 +51,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [ ] [sip](https://sipapp.io/)
 - [ ] [sketch](https://www.sketch.com/)
 - [ ] [spark](https://sparkmailapp.com/)
+- [x] [dozer](https://github.com/Mortennn/Dozer)
 - [x] [gifox](https://gifox.io/)
 - [x] [homebrew](https://brew.sh/)
 - [x] [iterm2](https://www.iterm2.com/)

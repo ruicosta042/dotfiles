@@ -45,3 +45,4 @@ brew install fzf    # fuzzy file finder
 # general utilities
 brew cask install spectacle   # window manager
 brew cask install gifox       # screen recording (gifs)
+brew cask install dozer       # hide status bar icons
