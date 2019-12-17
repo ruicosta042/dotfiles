@@ -3,16 +3,23 @@
 mac () {
   brew install git
   brew install tig
- }
+  setup
+}
 
 ubuntu () {
   sudo apt-get install git -y
   sudo apt install tig -y
+  setup
 }
 
 setup () {
   if [[ -L "$HOME/.gitconfig" ]] ; then
     return
+  fi
+
+  prompt_yes_no "[git] setup?"
+  if [[ $? -eq 1 ]] ; then
+    return 1
   fi
 
   read -r -p "[git] Enter your name: "  name < /dev/tty
@@ -45,13 +52,4 @@ export EDITOR=vim
 EOT
 }
 
-setup_mac () {
-  setup
-}
-
-setup_ubuntu () {
-  setup
-}
-
 os_call "[git] install?" mac ubuntu
-os_call "[git] setup?" setup_mac setup_ubuntu
