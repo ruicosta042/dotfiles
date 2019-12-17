@@ -3,13 +3,11 @@
 mac () {
   brew install git
   brew install tig
-  setup
-}
+ }
 
 ubuntu () {
   sudo apt-get install git -y
   sudo apt install tig -y
-  setup
 }
 
 setup () {
@@ -47,4 +45,13 @@ export EDITOR=vim
 EOT
 }
 
+setup_mac () {
+  setup
+}
+
+setup_ubuntu () {
+  setup
+}
+
 os_call "[git] install?" mac ubuntu
+os_call "[git] setup?" setup_mac setup_ubuntu
