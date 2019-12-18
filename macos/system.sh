@@ -20,13 +20,6 @@ brew install grep
 brew install moreutils
 brew install python
 
-cat << EOT >> "bash/bash_profile"
-
-# GNU command line utilities
-export PATH=/usr/local/opt/grep/libexec/gnubin:\$PATH
-
-EOT
-
 # Hack font
 brew tap homebrew/cask-fonts
 brew cask install homebrew/cask-fonts/font-hack

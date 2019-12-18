@@ -35,10 +35,6 @@ shopt -s checkwinsize
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 
-# enable dircolors
-eval "$(gdircolors ~/.dir_colors)"
-
-
 # Prompt
 # don't show user@domain
 # show current directory and git branch
