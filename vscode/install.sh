@@ -4,6 +4,7 @@ mac () {
   brew cask install visual-studio-code
   brew install shellcheck
   setup ~/Library/Application\ Support/Code/User/settings.json
+  cp vscode/_keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json 
 
   # vscode-vim suggested configs
   defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
@@ -18,6 +19,7 @@ ubuntu () {
   sudo apt-get install code -y
   sudo apt-get install shellcheck -y
   setup ~/.config/Code/User/settings.json
+  cp vscode/_keybindings.json ~/.config/Code/User/keybindings.json 
 }
 
 setup () {
@@ -54,6 +56,7 @@ setup () {
   sed \
     -e "s|__SHELLCHECK_EXECUTABLE_PATH__|$(command -v shellcheck)|g" \
     -e "s|__GIT_EXECUTABLE_PATH__|$(command -v git)|g" \
+    -e "s|__INTEGRATED_SHELL_OSX_PATH__|$(command -v bash)|g" \
     vscode/_settings.json > "$1"
 
   # wakatime configuration
