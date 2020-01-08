@@ -6,7 +6,7 @@
       "Custom Command": "Yes",
       "Command": "bash",
       "Normal Font": "Hack-Bold 12",
-      "Vertical Spacing": 1.2,
+      "Vertical Spacing": 1,
       "Visual Bell": true,
       "Silence Bell": true,
       "Ansi 0 Color": {
