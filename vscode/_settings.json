@@ -34,8 +34,8 @@
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Nord",
-  "workbench.editor.enablePreview": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 5,
   "workbench.iconTheme": "seti",
   "workbench.panel.defaultLocation": "right"
 }
