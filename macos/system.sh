@@ -18,7 +18,6 @@ brew install coreutils
 brew install gnu-sed
 brew install grep
 brew install moreutils
-brew install python
 
 # Hack font
 brew tap homebrew/cask-fonts

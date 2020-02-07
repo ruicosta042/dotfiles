@@ -20,9 +20,7 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### Development
 
-- [x] [docker](https://www.docker.com/)
 - [x] [firefox-dev-edition](https://www.mozilla.org/en-GB/firefox/developer/)
-- [x] [git](https://git-scm.com/)
 - [x] [vscode](https://code.visualstudio.com/)
 - [x] [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
@@ -30,9 +28,12 @@ wget -qO- https://git.io/ruicdot | bash
 
 - [x] [bash](https://www.gnu.org/software/bash/)
 - [x] [bat](https://github.com/sharkdp/bat)
+- [x] [docker](https://www.docker.com/)
 - [x] [dust](https://github.com/bootandy/dust)
 - [x] [fzf](https://github.com/junegunn/fzf)
+- [x] [git](https://git-scm.com/)
 - [x] [nvm](https://github.com/nvm-sh/nvm)
+- [x] [python](https://www.python.org/)
 - [x] [tig](https://github.com/jonas/tig)
 - [x] [vim](https://www.vim.org/)
 
