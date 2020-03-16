@@ -24,10 +24,10 @@ brew tap homebrew/cask-fonts
 brew cask install homebrew/cask-fonts/font-hack
 
 echo "[macos] command line utilities"
-brew install mas    # command line interface for the Mac App Store
 brew install bat    # better cat (syntax highlighting)
 brew install dust   # better du -sh
 brew install htop   # better top
+brew install jq
 brew install yank   # copy terminal output to clipboard 
 brew install fzf    # fuzzy file finder
 "$(brew --prefix)"/opt/fzf/install --all
@@ -35,4 +35,3 @@ brew install fzf    # fuzzy file finder
 # general utilities
 brew cask install spectacle   # window manager
 brew cask install gifox       # screen recording (gifs)
-brew cask install dozer       # hide status bar icons

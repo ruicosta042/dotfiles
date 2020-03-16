@@ -20,28 +20,27 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### Development
 
-- [x] [firefox-dev-edition](https://www.mozilla.org/en-GB/firefox/developer/)
-- [x] [vscode](https://code.visualstudio.com/)
-- [x] [virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- [x] [vscodium](https://github.com/VSCodium/vscodium)
+- [x] [docker](https://www.docker.com/)
+- [x] [git](https://git-scm.com/)
+- [x] [nvm](https://github.com/nvm-sh/nvm)
+- [x] [vim](https://www.vim.org/)
 
 #### CLI
 
 - [x] [bash](https://www.gnu.org/software/bash/)
 - [x] [bat](https://github.com/sharkdp/bat)
-- [x] [docker](https://www.docker.com/)
 - [x] [dust](https://github.com/bootandy/dust)
 - [x] [fzf](https://github.com/junegunn/fzf)
-- [x] [git](https://git-scm.com/)
-- [x] [nvm](https://github.com/nvm-sh/nvm)
 - [x] [python](https://www.python.org/)
 - [x] [tig](https://github.com/jonas/tig)
-- [x] [vim](https://www.vim.org/)
 
 #### General use
 
 - [x] [chromium](https://www.chromium.org/)
 - [x] [firefox](https://www.mozilla.org/en-GB/firefox/new/)
 - [x] [hosts](https://github.com/StevenBlack/hosts)
+- [x] [virtualbox](https://www.virtualbox.org/wiki/Downloads)
 
 #### macOS specific
 
@@ -49,12 +48,10 @@ wget -qO- https://git.io/ruicdot | bash
 - [ ] [cleanmymac x](https://macpaw.com/cleanmymac)
 - [ ] [sip](https://sipapp.io/)
 - [ ] [sketch](https://www.sketch.com/)
-- [x] [dozer](https://github.com/Mortennn/Dozer)
 - [x] [gifox](https://gifox.io/)
 - [x] [homebrew](https://brew.sh/)
 - [x] [iterm2](https://www.iterm2.com/)
-- [x] [mas](https://github.com/mas-cli/mas)
-- [x][spectacle](https://www.spectacleapp.com/)
+- [x] [spectacle](https://www.spectacleapp.com/)
 
 #### Ubuntu specific
 
@@ -69,7 +66,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] terminator
 - [x] vim
 - [x] virtualbox
-- [x] vscode
+- [x] vscodium
 
 #### Missing automatic configs (macOS/ubuntu)
 

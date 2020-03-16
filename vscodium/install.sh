@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 
 mac () {
-  brew cask install visual-studio-code
+  brew cask install vscodium
   brew install shellcheck
-  setup ~/Library/Application\ Support/Code/User/settings.json
-  cp vscode/_keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json 
+  setup ~/Library/Application\ Support/VSCodium/User/settings.json
+  cp vscode/_keybindings.json ~/Library/Application\ Support/VSCodium/User/keybindings.json 
 
   # vscode-vim suggested configs
   defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
@@ -12,14 +12,15 @@ mac () {
 }
 
 ubuntu () {
-  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
-  sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" -y
+  wget -q https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg -O- | sudo apt-key add -
+  echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' \
+    | sudo tee --append /etc/apt/sources.list.d/vscodium.list
   sudo apt-get update -y
 
-  sudo apt-get install code -y
+  sudo apt-get install codium -y
   sudo apt-get install shellcheck -y
-  setup ~/.config/Code/User/settings.json
-  cp vscode/_keybindings.json ~/.config/Code/User/keybindings.json 
+  setup ~/.config/VSCodium/User/settings.json
+  cp vscode/_keybindings.json ~/.config/VSCodium/User/keybindings.json 
 }
 
 setup () {
@@ -66,4 +67,4 @@ setup () {
     "vscode/_wakatime.cfg" > "$DOTFILES_DIR/wakatime.cfg"
 }
 
-os_call "[vscode] install?" mac ubuntu
+os_call "[vscodium] install?" mac ubuntu
