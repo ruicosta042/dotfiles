@@ -64,6 +64,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] git
 - [x] iterm2
 - [x] terminator
+- [x] tig
 - [x] vim
 - [x] virtualbox
 - [x] vscodium
