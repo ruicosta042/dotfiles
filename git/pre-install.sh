@@ -41,8 +41,8 @@ setup () {
     https://api.github.com/user/keys
 
   sed \
-    -e "s/__AUTHORNAME__/$name/g" \
-    -e "s/__AUTHOREMAIL__/$email/g" \
+    -e "s/__GIT_USERNAME__/$name/g" \
+    -e "s/__GIT_EMAIL__/$email/g" \
     "git/_gitconfig" > "$DOTFILES_DIR/gitconfig"
 
   cat << EOT >> "$DOTFILES_DIR/bash_profile"
