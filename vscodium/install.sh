@@ -29,7 +29,6 @@ setup () {
   code --install-extension christian-kohler.npm-intellisense
   code --install-extension christian-kohler.path-intellisense
   code --install-extension dbaeumer.vscode-eslint
-  code --install-extension deerawan.vscode-dash
   code --install-extension EditorConfig.EditorConfig
   code --install-extension eg2.vscode-npm-script
   code --install-extension esbenp.prettier-vscode
