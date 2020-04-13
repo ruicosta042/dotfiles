@@ -51,7 +51,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [gifox](https://gifox.io/) - screen recorder
 - [x] [iterm2](https://www.iterm2.com/) - terminal
 - [x] [maccy](https://maccy.app/) - clipboard manager
-- [x] [spectacle](https://www.spectacleapp.com/) - window tiling
+- [x] [rectangle](https://github.com/rxhanson/Rectangle) - window management
 
 #### Ubuntu specific
 

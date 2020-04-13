@@ -33,8 +33,11 @@ brew install fzf    # fuzzy file finder
 "$(brew --prefix)"/opt/fzf/install --all
 
 # general utilities
-brew cask install spectacle   # window manager
 brew cask install gifox       # screen recording (gifs)
+
+brew cask install rectangle   # window manager
+defaults write com.knollsoft.Rectangle launchOnLogin -bool true
+defaults write com.knollsoft.Rectangle alternateDefaultShortcuts -bool true
 
 brew cask install maccy       # clipboard manager
 defaults write org.p0deje.Maccy hideTitle true
