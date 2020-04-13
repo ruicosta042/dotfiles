@@ -25,6 +25,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [git](https://git-scm.com/)
 - [x] [nvm](https://github.com/nvm-sh/nvm)
 - [x] [vim](https://www.vim.org/)
+- [x] [tig](https://github.com/jonas/tig)
 
 #### CLI
 
@@ -32,8 +33,8 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [bat](https://github.com/sharkdp/bat)
 - [x] [dust](https://github.com/bootandy/dust)
 - [x] [fzf](https://github.com/junegunn/fzf)
+- [x] [homebrew](https://brew.sh/)
 - [x] [python](https://www.python.org/)
-- [x] [tig](https://github.com/jonas/tig)
 
 #### General use
 
@@ -49,8 +50,8 @@ wget -qO- https://git.io/ruicdot | bash
 - [ ] [sip](https://sipapp.io/)
 - [ ] [sketch](https://www.sketch.com/)
 - [x] [gifox](https://gifox.io/)
-- [x] [homebrew](https://brew.sh/)
 - [x] [iterm2](https://www.iterm2.com/)
+- [x] [maccy](https://maccy.app/)
 - [x] [spectacle](https://www.spectacleapp.com/)
 
 #### Ubuntu specific
@@ -63,6 +64,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] bash
 - [x] git
 - [x] iterm2
+- [x] maccy
 - [x] terminator
 - [x] tig
 - [x] vim

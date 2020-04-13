@@ -35,3 +35,8 @@ brew install fzf    # fuzzy file finder
 # general utilities
 brew cask install spectacle   # window manager
 brew cask install gifox       # screen recording (gifs)
+
+brew cask install maccy       # clipboard manager
+defaults write org.p0deje.Maccy hideTitle true
+defaults write org.p0deje.Maccy popupPosition center
+defaults write org.p0deje.Maccy imageMaxHeight 100
