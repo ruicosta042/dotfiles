@@ -23,7 +23,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [vscodium](https://github.com/VSCodium/vscodium) - code editor
 - [x] [git](https://git-scm.com/) - source control
 - [x] [vim](https://www.vim.org/) - text editor
-- [x] [nvm](https://github.com/nvm-sh/nvm) - `node` version manager
+- [x] [nodenv](https://github.com/nodenv/nodenv#nodenv-shell) - `node` version manager
 - [x] [tig](https://github.com/jonas/tig) - text-mode interface for `git`
 - [x] [dash](https://kapeli.com/dash) - documentation browser
 - [x] [docker](https://www.docker.com/) - containers
