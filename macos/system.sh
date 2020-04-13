@@ -35,6 +35,8 @@ brew install fzf    # fuzzy file finder
 # general utilities
 brew cask install gifox       # screen recording (gifs)
 
+brew cask install dash        # documentation browser
+
 brew cask install rectangle   # window manager
 defaults write com.knollsoft.Rectangle launchOnLogin -bool true
 defaults write com.knollsoft.Rectangle alternateDefaultShortcuts -bool true
