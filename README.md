@@ -20,44 +20,43 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### Development
 
-- [x] [vscodium](https://github.com/VSCodium/vscodium)
-- [x] [docker](https://www.docker.com/)
-- [x] [git](https://git-scm.com/)
-- [x] [nvm](https://github.com/nvm-sh/nvm)
-- [x] [vim](https://www.vim.org/)
-- [x] [tig](https://github.com/jonas/tig)
+- [x] [vscodium](https://github.com/VSCodium/vscodium) - code editor
+- [x] [docker](https://www.docker.com/) - containers
+- [x] [git](https://git-scm.com/) - source control
+- [x] [nvm](https://github.com/nvm-sh/nvm) - `node` version manager
+- [x] [vim](https://www.vim.org/) - text editor
+- [x] [tig](https://github.com/jonas/tig) - text-mode interface for `git`
 
 #### CLI
 
-- [x] [bash](https://www.gnu.org/software/bash/)
-- [x] [bat](https://github.com/sharkdp/bat)
-- [x] [dust](https://github.com/bootandy/dust)
-- [x] [fzf](https://github.com/junegunn/fzf)
-- [x] [homebrew](https://brew.sh/)
-- [x] [python](https://www.python.org/)
+- [x] [bash](https://www.gnu.org/software/bash/) - shell
+- [x] [bat](https://github.com/sharkdp/bat) - `cat` clone with syntax highlightning
+- [x] [dust](https://github.com/bootandy/dust) - disk usage
+- [x] [fzf](https://github.com/junegunn/fzf) - command-line fuzzy finder
+- [x] [homebrew](https://brew.sh/) - package manager
+- [x] [python](https://www.python.org/) - `python` interpreter
 
 #### General use
 
-- [x] [chromium](https://www.chromium.org/)
-- [x] [firefox](https://www.mozilla.org/en-GB/firefox/new/)
-- [x] [hosts](https://github.com/StevenBlack/hosts)
-- [x] [virtualbox](https://www.virtualbox.org/wiki/Downloads)
+- [x] [chromium](https://www.chromium.org/) - browser
+- [x] [firefox](https://www.mozilla.org/en-GB/firefox/new/) - browser
+- [x] [hosts](https://github.com/StevenBlack/hosts) - hosts file for ad-blocking
+- [x] [virtualbox](https://www.virtualbox.org/wiki/Downloads) - virtual environments
 
 #### macOS specific
 
-- [ ] [authy](https://authy.com/)
-- [ ] [cleanmymac x](https://macpaw.com/cleanmymac)
-- [ ] [sip](https://sipapp.io/)
-- [ ] [sketch](https://www.sketch.com/)
-- [x] [gifox](https://gifox.io/)
-- [x] [iterm2](https://www.iterm2.com/)
-- [x] [maccy](https://maccy.app/)
-- [x] [spectacle](https://www.spectacleapp.com/)
+- [ ] [authy](https://authy.com/) - 2FA authenticator app
+- [ ] [cleanmymac x](https://macpaw.com/cleanmymac) - system cleaner
+- [ ] [sketch](https://www.sketch.com/) - image editor
+- [x] [gifox](https://gifox.io/) - screen recorder
+- [x] [iterm2](https://www.iterm2.com/) - terminal
+- [x] [maccy](https://maccy.app/) - clipboard manager
+- [x] [spectacle](https://www.spectacleapp.com/) - window tiling
 
 #### Ubuntu specific
 
-- [x] [gnome tweaks](https://wiki.gnome.org/Apps/Tweaks)
-- [x] [terminator](https://terminator-gtk3.readthedocs.io/en/latest/)
+- [x] [gnome tweaks](https://wiki.gnome.org/Apps/Tweaks) - advanced GNOME 3 settings
+- [x] [terminator](https://terminator-gtk3.readthedocs.io/en/latest/) - terminal
 
 #### Apply settings to:
 
