@@ -33,7 +33,7 @@ brew install fzf    # fuzzy file finder
 "$(brew --prefix)"/opt/fzf/install --all
 
 # general utilities
-brew cask install gifox       # screen recording (gifs)
+brew cask install kap         # screen recording (gifs)
 
 brew cask install rectangle   # window manager
 defaults write com.knollsoft.Rectangle launchOnLogin -bool true

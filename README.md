@@ -6,13 +6,13 @@ Environment setup - macOS/Ubuntu.
 
 #### macOS
 
-```
+```bash
 curl -fsSL https://git.io/ruicdot | bash
 ```
 
 #### Ubuntu
 
-```
+```bash
 wget -qO- https://git.io/ruicdot | bash
 ```
 
@@ -48,8 +48,8 @@ wget -qO- https://git.io/ruicdot | bash
 - [ ] [authy](https://authy.com/) - 2FA authenticator app
 - [ ] [cleanmymac x](https://macpaw.com/cleanmymac) - system cleaner
 - [ ] [sketch](https://www.sketch.com/) - image editor
-- [x] [gifox](https://gifox.io/) - screen recorder
 - [x] [iterm2](https://www.iterm2.com/) - terminal
+- [x] [kap](https://getkap.co/) - screen recording
 - [x] [maccy](https://maccy.app/) - clipboard manager
 - [x] [rectangle](https://github.com/rxhanson/Rectangle) - window management
 
@@ -80,8 +80,8 @@ wget -qO- https://git.io/ruicdot | bash
 ## macOS
 
 - [ ] [iterm2] set theme to minimal
-- [ ] set CAPS-LOCK to CTRL
-- [ ] set Spotlight shortcut to CMD+SPACE
+- [ ] set <kbd>CAPS-LOCK</kbd> to <kbd>CTRL</kbd>
+- [ ] set Spotlight shortcut to <kbd>CMD</kbd> + <kbd>SPACE</kbd>
 - [ ] set Spectacle to start on login
 - [x] set to Dark Mode
 - [x] minimal dock
@@ -99,7 +99,7 @@ wget -qO- https://git.io/ruicdot | bash
 ## Ubuntu
 
 - [ ] Auto-hide top bar
-- [ ] remove Overview Shortcut from CMD_L (on GnomeTweaks)
+- [ ] remove Overview Shortcut from <kbd>CMD-L</kbd> (on GnomeTweaks)
 - [x] Adwaita-dark
 - [x] San Francisco Display as system font
 - [x] Hack as monospace font
@@ -107,11 +107,11 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] apply keyboard changes on install
 - [x] apply keyboard changes on restart/login
 - [x] apply keyboard changes on hibernate/sleep
-- [x] swap CTRL_L with CMD_L
-- [x] set CAPSLOCK to CTRL
-- [x] show overview: CMD_L + SPACE
-- [x] toggle maximized state: CMD_L + ALT_L + f
-- [x] switch applications: CMD_L + TAB
+- [x] swap <kbd>CTRL-L</kbd> with <kbd>CMD-L</kbd>
+- [x] set <kbd>CAPSLOCK</kbd> to <kbd>CTRL</kbd>
+- [x] show overview: <kbd>CMD-L</kbd> + <kbd>SPACE</kbd>
+- [x] toggle maximized state: <kbd>CMD-L</kbd> + <kbd>ALT-L</kbd> + <kbd>f</kbd>
+- [x] switch applications: <kbd>CMD-L</kbd> + <kbd>TAB</kbd>
 
 ## License
 
