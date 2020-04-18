@@ -45,13 +45,14 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### macOS specific
 
-- [ ] [authy](https://authy.com/) - 2FA authenticator app
-- [ ] [cleanmymac x](https://macpaw.com/cleanmymac) - system cleaner
-- [ ] [sketch](https://www.sketch.com/) - image editor
 - [x] [iterm2](https://www.iterm2.com/) - terminal
 - [x] [kap](https://getkap.co/) - screen recording
 - [x] [maccy](https://maccy.app/) - clipboard manager
 - [x] [rectangle](https://github.com/rxhanson/Rectangle) - window management
+- [x] [thor](https://github.com/gbammc/Thor) - application switcher
+- [ ] [authy](https://authy.com/) - 2FA authenticator app
+- [ ] [cleanmymac x](https://macpaw.com/cleanmymac) - system cleaner
+- [ ] [sketch](https://www.sketch.com/) - image editor
 
 #### Ubuntu specific
 
@@ -79,10 +80,6 @@ wget -qO- https://git.io/ruicdot | bash
 
 ## macOS
 
-- [ ] [iterm2] set theme to minimal
-- [ ] set <kbd>CAPS-LOCK</kbd> to <kbd>CTRL</kbd>
-- [ ] set Spotlight shortcut to <kbd>CMD</kbd> + <kbd>SPACE</kbd>
-- [ ] set Spectacle to start on login
 - [x] set to Dark Mode
 - [x] minimal dock
 - [x] auto-hide top bar
@@ -95,11 +92,13 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] remove the auto-hiding Dock delay
 - [x] set fast keyboard repeat rate
 - [x] set trackpad scroll direction to natural
+- [ ] [iterm2] set theme to minimal
+- [ ] set <kbd>CAPS-LOCK</kbd> to <kbd>CTRL</kbd>
+- [ ] set Spotlight shortcut to <kbd>CMD</kbd> + <kbd>SPACE</kbd>
+- [ ] set Spectacle to start on login
 
 ## Ubuntu
 
-- [ ] Auto-hide top bar
-- [ ] remove Overview Shortcut from <kbd>CMD-L</kbd> (on GnomeTweaks)
 - [x] Adwaita-dark
 - [x] San Francisco Display as system font
 - [x] Hack as monospace font
@@ -112,6 +111,8 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] show overview: <kbd>CMD-L</kbd> + <kbd>SPACE</kbd>
 - [x] toggle maximized state: <kbd>CMD-L</kbd> + <kbd>ALT-L</kbd> + <kbd>f</kbd>
 - [x] switch applications: <kbd>CMD-L</kbd> + <kbd>TAB</kbd>
+- [ ] Auto-hide top bar
+- [ ] remove Overview Shortcut from <kbd>CMD-L</kbd> (on GnomeTweaks)
 
 ## License
 
