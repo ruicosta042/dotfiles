@@ -2,14 +2,48 @@
 
 mac () {
   brew install git
-  brew install tig
+  brew install tig                # gui
+  brew install bash-completion    # git completion
+  brew install bash-git-prompt    # git prompt    
   setup
+
+ cat << EOT >> "$DOTFILES_DIR/bash_profile"
+
+# git completion
+[[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]] \
+  && source "$(brew --prefix)/etc/profile.d/bash_completion.sh"
+
+# git prompt
+if [ -f "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh" ]; then
+  __GIT_PROMPT_DIR=$(brew --prefix)/opt/bash-git-prompt/share
+  GIT_PROMPT_ONLY_IN_REPO=1
+  source "$(brew --prefix)/opt/bash-git-prompt/share/gitprompt.sh"
+fi
+
+# prompt
+GIT_PROMPT_THEME=Custom
+GIT_PROMPT_THEME_FILE=~/.git-prompt-colors.sh
+EOT
+
 }
 
 ubuntu () {
   sudo apt-get install git -y
   sudo apt install tig -y
   setup
+
+  cat << EOT >> "$DOTFILES_DIR/bash_profile"
+
+# Bash completion
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+EOT
+
 }
 
 setup () {

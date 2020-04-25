@@ -20,26 +20,26 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### Development
 
-- [x] [vscodium](https://github.com/VSCodium/vscodium) - code editor
 - [x] [git](https://git-scm.com/) - source control
-- [x] [vim](https://www.vim.org/) - text editor
 - [x] [nodenv](https://github.com/nodenv/nodenv#nodenv-shell) - `node` version manager
-- [x] [tig](https://github.com/jonas/tig) - text-mode interface for `git`
-- [x] [docker](https://www.docker.com/) - containers
+- [x] [vim](https://www.vim.org/) - text editor
+- [x] [vscodium](https://github.com/VSCodium/vscodium) - code editor
 
-#### CLI
+#### Shell
 
+- [x] [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) - git info
 - [x] [bash](https://www.gnu.org/software/bash/) - shell
 - [x] [bat](https://github.com/sharkdp/bat) - `cat` clone with syntax highlightning
 - [x] [dust](https://github.com/bootandy/dust) - disk usage
 - [x] [fzf](https://github.com/junegunn/fzf) - command-line fuzzy finder
-- [x] [homebrew](https://brew.sh/) - package manager
 - [x] [python](https://www.python.org/) - `python` interpreter
+- [x] [tig](https://github.com/jonas/tig) - text-mode interface for `git`
 - [x] [z](https://github.com/rupa/z) - jump around directories
 
 #### General use
 
 - [x] [chromium](https://www.chromium.org/) - browser
+- [x] [docker](https://www.docker.com/) - containers
 - [x] [firefox](https://www.mozilla.org/en-GB/firefox/new/) - browser
 - [x] [hosts](https://github.com/StevenBlack/hosts) - hosts file for ad-blocking
 - [x] [virtualbox](https://www.virtualbox.org/wiki/Downloads) - virtual environments
@@ -47,6 +47,7 @@ wget -qO- https://git.io/ruicdot | bash
 #### macOS specific
 
 - [x] [iterm2](https://www.iterm2.com/) - terminal
+- [x] [homebrew](https://brew.sh/) - package manager
 - [x] [kap](https://getkap.co/) - screen recording
 - [x] [maccy](https://maccy.app/) - clipboard manager
 - [x] [rectangle](https://github.com/rxhanson/Rectangle) - window management
@@ -59,18 +60,6 @@ wget -qO- https://git.io/ruicdot | bash
 
 - [x] [gnome tweaks](https://wiki.gnome.org/Apps/Tweaks) - advanced GNOME 3 settings
 - [x] [terminator](https://terminator-gtk3.readthedocs.io/en/latest/) - terminal
-
-#### Apply settings to:
-
-- [x] bash
-- [x] git
-- [x] iterm2
-- [x] maccy
-- [x] terminator
-- [x] tig
-- [x] vim
-- [x] virtualbox
-- [x] vscodium
 
 #### Missing automatic configs (macOS/ubuntu)
 

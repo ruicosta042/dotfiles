@@ -2,7 +2,6 @@
 
 mac () {
   brew install bash
-  brew install bash-completion
 
   copy_rc_files
 
@@ -11,35 +10,24 @@ mac () {
   echo $bash_bin | sudo tee -a /etc/shells
   sudo chsh -s $bash_bin
 
-  # add bash completion
-  cat << EOT >> "$DOTFILES_DIR/bash_profile"
+cat << EOT >> "$DOTFILES_DIR/bash_profile"
 
-# Bash completion
-[[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]] \
-  && source "$(brew --prefix)/etc/profile.d/bash_completion.sh"
-
-# z jump around directories
+# z - jump around directories
 . /usr/local/etc/profile.d/z.sh
 EOT
+
 }
 
 ubuntu () {
   sudo apt-get install bash -y
-  sudo apt-get install bash-completion -y
+  sudo apt-get install bash-completion -y   # git completion
+  sudo apt-get install bash-git-prompt -y        # git prompt    
 
   copy_rc_files
 
   # add bash completion
   cat << EOT >> "$DOTFILES_DIR/bash_profile"
 
-# Bash completion
-if ! shopt -oq posix; then
-  if [ -f /usr/share/bash-completion/bash_completion ]; then
-    . /usr/share/bash-completion/bash_completion
-  elif [ -f /etc/bash_completion ]; then
-    . /etc/bash_completion
-  fi
-fi
 
 # z jump around directories
 . ${DOTFILES_DIR}/z.sh
