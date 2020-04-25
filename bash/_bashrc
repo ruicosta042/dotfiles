@@ -10,3 +10,5 @@ if [ -f ~/.bash_profile ]; then
   . ~/.bash_profile
 fi
 
+# [macos] remove bash deprecation warning
+export BASH_SILENCE_DEPRECATION_WARNING=1
