@@ -17,6 +17,9 @@ mac () {
 # Bash completion
 [[ -r "$(brew --prefix)/etc/profile.d/bash_completion.sh" ]] \
   && source "$(brew --prefix)/etc/profile.d/bash_completion.sh"
+
+# z jump around directories
+. /usr/local/etc/profile.d/z.sh
 EOT
 }
 
@@ -37,6 +40,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# z jump around directories
+. ${DOTFILES_DIR}/z.sh
 EOT
 }
 

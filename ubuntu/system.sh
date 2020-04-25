@@ -32,3 +32,6 @@ sudo apt-get install bat -y     # better cat (syntax highlighting)
 sudo apt-get install dust -y    # better du -sh
 sudo apt-get install yank -y    # copy terminal output to clipboard 
 sudo apt-get install fzf -y     # file fuzzy finder
+
+# z jump around directories
+wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O "$DOTFILES_DIR/z.sh"

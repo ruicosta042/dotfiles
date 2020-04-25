@@ -35,6 +35,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [fzf](https://github.com/junegunn/fzf) - command-line fuzzy finder
 - [x] [homebrew](https://brew.sh/) - package manager
 - [x] [python](https://www.python.org/) - `python` interpreter
+- [x] [z](https://github.com/rupa/z) - jump around directories
 
 #### General use
 

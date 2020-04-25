@@ -31,6 +31,7 @@ brew install jq
 brew install yank   # copy terminal output to clipboard 
 brew install fzf    # fuzzy file finder
 "$(brew --prefix)"/opt/fzf/install --all
+brew install z      # jump around directories
 
 # general utilities
 brew cask install kap         # screen recording (gifs)
