@@ -33,5 +33,12 @@ sudo apt-get install dust -y    # better du -sh
 sudo apt-get install yank -y    # copy terminal output to clipboard 
 sudo apt-get install fzf -y     # file fuzzy finder
 
+localbin=/usr/local/bin/
+
 # z jump around directories
-wget https://raw.githubusercontent.com/rupa/z/master/z.sh -O "$DOTFILES_DIR/z.sh"
+wget -qO "$localbin/z" https://raw.githubusercontent.com/rupa/z/master/z.sh
+chmod +x "$localbin/z"
+
+# tldr - community driven man pages
+wget -qO "$localbin/tldr" https://4e4.win/tldr
+chmod +x "$localbin/tldr"

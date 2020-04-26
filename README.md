@@ -34,6 +34,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [fzf](https://github.com/junegunn/fzf) - command-line fuzzy finder
 - [x] [python](https://www.python.org/) - `python` interpreter
 - [x] [tig](https://github.com/jonas/tig) - text-mode interface for `git`
+- [x] [tldr](https://github.com/tldr-pages/tldr) - community-driven man pages
 - [x] [z](https://github.com/rupa/z) - jump around directories
 
 #### General use
