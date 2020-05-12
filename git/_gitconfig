@@ -15,7 +15,16 @@
 [help]
         autocorrect = 1
 [alias]
-        # better log
-	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
         # last branches
         lb = !git reflog show --pretty=format:'%gs ~ %gd' --date=relative | grep 'checkout:' | grep -oE '[^ ]+ ~ .*' | awk -F~ '!seen[$1]++' | head -n 10 | awk -F' ~ HEAD@{' '{printf(\"  \\033[33m%s: \\033[37m %s\\033[0m\\n\", substr($2, 1, length($2)-1), $1)}'
+
+        # better log
+        l = !git log --color=always --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cr%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --abbrev-commit \
+                | sed 's/ ago//' \
+                | sed -E 's/([0-9]+) seconds/\\1s/' \
+                | sed -E 's/([0-9]+) minutes/\\1m/' \
+                | sed -E 's/([0-9]+) hours/\\1h/' \
+                | sed -E 's/([0-9]+) days/\\1D/' \
+                | sed -E 's/([0-9]+) weeks/\\1W/' \
+                | sed -E 's/([0-9]+) months/\\1M/' \
+                | less --RAW-CONTROL-CHARS --chop-long-lines
