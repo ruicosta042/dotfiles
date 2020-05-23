@@ -34,5 +34,10 @@
   {
     "key": "cmd+9",
     "command": "workbench.action.openEditorAtIndex9"
+  },
+  {
+    "key": "shift+alt+f12",
+    "command": "-references-view.find",
+    "when": "editorHasReferenceProvider"
   }
 ]
