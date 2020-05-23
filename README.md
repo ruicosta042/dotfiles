@@ -32,6 +32,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [bat](https://github.com/sharkdp/bat) - `cat` clone with syntax highlightning
 - [x] [dust](https://github.com/bootandy/dust) - disk usage
 - [x] [fzf](https://github.com/junegunn/fzf) - command-line fuzzy finder
+- [x] [ngrok](https://ngrok.com/) - tunnels to localhost
 - [x] [python](https://www.python.org/) - `python` interpreter
 - [x] [tig](https://github.com/jonas/tig) - text-mode interface for `git`
 - [x] [tldr](https://github.com/tldr-pages/tldr) - community-driven man pages
@@ -86,7 +87,6 @@ wget -qO- https://git.io/ruicdot | bash
 - [ ] [iterm2] set theme to minimal
 - [ ] set <kbd>CAPS-LOCK</kbd> to <kbd>CTRL</kbd>
 - [ ] set Spotlight shortcut to <kbd>CMD</kbd> + <kbd>SPACE</kbd>
-- [ ] set Spectacle to start on login
 
 ## Ubuntu
 
