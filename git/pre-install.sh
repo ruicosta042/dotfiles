@@ -2,7 +2,6 @@
 
 mac () {
   brew install git
-  brew install tig                # gui
   brew install bash-completion    # git completion
   brew install bash-git-prompt    # git prompt    
   setup
@@ -29,7 +28,8 @@ EOT
 
 ubuntu () {
   sudo apt-get install git -y
-  sudo apt install tig -y
+  sudo apt-get install bash-completion -y   # git completion
+  sudo apt-get install bash-git-prompt -y   # git prompt    
   setup
 
   cat << EOT >> "$DOTFILES_DIR/bash_profile"

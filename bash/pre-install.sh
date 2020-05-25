@@ -20,9 +20,7 @@ EOT
 
 ubuntu () {
   sudo apt-get install bash -y
-  sudo apt-get install bash-completion -y   # git completion
-  sudo apt-get install bash-git-prompt -y        # git prompt    
-
+ 
   copy_rc_files
 
   # add bash completion
