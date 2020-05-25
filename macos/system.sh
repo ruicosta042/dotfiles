@@ -33,6 +33,7 @@ brew install fzf    # fuzzy file finder
 "$(brew --prefix)"/opt/fzf/install --all
 brew install tldr   # community driven by example man pages
 brew install z      # jump around directories
+brew install wallpaper  # manage desktop wallpaper
 
 # general utilities
 brew cask install kap         # screen recording (gifs)
@@ -45,3 +46,6 @@ brew cask install maccy       # clipboard manager
 defaults write org.p0deje.Maccy hideTitle true
 defaults write org.p0deje.Maccy popupPosition center
 defaults write org.p0deje.Maccy imageMaxHeight 100
+
+# set wallpaper to solid color from nord theme
+wallpaper set-solid-color 434c5e
