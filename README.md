@@ -21,7 +21,6 @@ wget -qO- https://git.io/ruicdot | bash
 #### Development
 
 - [x] [git](https://git-scm.com/) - source control
-- [x] [nodenv](https://github.com/nodenv/nodenv#nodenv-shell) - `node` version manager
 - [x] [vim](https://www.vim.org/) - text editor
 - [x] [vscodium](https://github.com/VSCodium/vscodium) - code editor
 
@@ -33,8 +32,8 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [dust](https://github.com/bootandy/dust) - disk usage
 - [x] [fzf](https://github.com/junegunn/fzf) - command-line fuzzy finder
 - [x] [ngrok](https://ngrok.com/) - tunnels to localhost
+- [x] [nvm](https://github.com/nvm-sh/nvm) - nodejs version manager
 - [x] [python](https://www.python.org/) - `python` interpreter
-- [x] [tig](https://github.com/jonas/tig) - text-mode interface for `git`
 - [x] [tldr](https://github.com/tldr-pages/tldr) - community-driven man pages
 - [x] [z](https://github.com/rupa/z) - jump around directories
 
