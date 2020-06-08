@@ -32,6 +32,7 @@ setup () {
   code --install-extension EditorConfig.EditorConfig
   code --install-extension esbenp.prettier-vscode
   code --install-extension fabiospampinato.vscode-todo-plus
+  code --install-extension formulahendry.auto-rename-tag
   code --install-extension jpoissonnier.vscode-styled-components
   code --install-extension kumar-harsh.graphql-for-vscode
   code --install-extension mhutchie.git-graph

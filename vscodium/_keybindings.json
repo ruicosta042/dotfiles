@@ -39,5 +39,20 @@
     "key": "shift+alt+f12",
     "command": "-references-view.find",
     "when": "editorHasReferenceProvider"
+  },
+  {
+    "key": "cmd+s",
+    "command": "git.stage",
+    "when": "activeViewlet == 'workbench.view.scm'"
+  },
+  {
+    "key": "cmd+u",
+    "command": "git.unstage",
+    "when": "activeViewlet == 'workbench.view.scm'"
+  },
+  {
+    "key": "cmd+r",
+    "command": "git.clean",
+    "when": "activeViewlet == 'workbench.view.scm'"
   }
 ]
