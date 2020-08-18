@@ -20,9 +20,9 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### Development
 
+- [x] [vscode](https://code.visualstudio.com/) - code editor
 - [x] [git](https://git-scm.com/) - source control
 - [x] [vim](https://www.vim.org/) - text editor
-- [x] [vscodium](https://github.com/VSCodium/vscodium) - code editor
 
 #### Shell
 
