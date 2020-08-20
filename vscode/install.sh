@@ -28,9 +28,11 @@ setup () {
   code --install-extension christian-kohler.npm-intellisense
   code --install-extension christian-kohler.path-intellisense
   code --install-extension dbaeumer.vscode-eslint
+  code --install-extension eamodio.gitlens
   code --install-extension EditorConfig.EditorConfig
   code --install-extension esbenp.prettier-vscode
   code --install-extension fabiospampinato.vscode-todo-plus
+  code --install-extension formulahendry.auto-close-tag
   code --install-extension formulahendry.auto-rename-tag
   code --install-extension jpoissonnier.vscode-styled-components
   code --install-extension kumar-harsh.graphql-for-vscode
