@@ -25,6 +25,7 @@ ubuntu () {
 setup () {
   # extensions
   code --install-extension arcticicestudio.nord-visual-studio-code
+  code --install-extension ChakrounAnas.turbo-console-log
   code --install-extension christian-kohler.npm-intellisense
   code --install-extension christian-kohler.path-intellisense
   code --install-extension dbaeumer.vscode-eslint
@@ -32,7 +33,6 @@ setup () {
   code --install-extension EditorConfig.EditorConfig
   code --install-extension esbenp.prettier-vscode
   code --install-extension fabiospampinato.vscode-todo-plus
-  code --install-extension formulahendry.auto-close-tag
   code --install-extension formulahendry.auto-rename-tag
   code --install-extension jpoissonnier.vscode-styled-components
   code --install-extension kumar-harsh.graphql-for-vscode
@@ -43,6 +43,7 @@ setup () {
   code --install-extension rsbondi.highlight-words
   code --install-extension shd101wyy.markdown-preview-enhanced
   code --install-extension SirTori.indenticator
+  code --install-extension streetsidesoftware.code-spell-checker
   code --install-extension thibaudcolas.stylelint
   code --install-extension timonwong.shellcheck
   code --install-extension Tyriar.sort-lines
