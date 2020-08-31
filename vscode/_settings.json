@@ -1,5 +1,6 @@
 {
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.symbolSortOrder": "name",
   "editor.fontFamily": "Hack, monospace",
   "editor.fontSize": 12,
   "editor.formatOnSave": true,
