@@ -24,7 +24,6 @@ brew tap homebrew/cask-fonts
 brew cask install homebrew/cask-fonts/font-hack
 
 echo "[macos] command line utilities"
-brew install bat    # better cat (syntax highlighting)
 brew install dust   # better du -sh
 brew install htop   # better top
 brew install jq
@@ -41,11 +40,6 @@ brew cask install kap         # screen recording (gifs)
 brew cask install rectangle   # window manager
 defaults write com.knollsoft.Rectangle launchOnLogin -bool true
 defaults write com.knollsoft.Rectangle alternateDefaultShortcuts -bool true
-
-brew cask install maccy       # clipboard manager
-defaults write org.p0deje.Maccy hideTitle true
-defaults write org.p0deje.Maccy popupPosition center
-defaults write org.p0deje.Maccy imageMaxHeight 100
 
 # set wallpaper to solid color from nord theme
 wallpaper set-solid-color 434c5e
