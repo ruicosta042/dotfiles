@@ -43,6 +43,7 @@ setup () {
   code --install-extension rsbondi.highlight-words
   code --install-extension shd101wyy.markdown-preview-enhanced
   code --install-extension SirTori.indenticator
+  code --install-extension streetsidesoftware.code-spell-checker
   code --install-extension thibaudcolas.stylelint
   code --install-extension timonwong.shellcheck
   code --install-extension Tyriar.sort-lines
