@@ -10,7 +10,8 @@
         status = auto
         branch = auto
         ui = true
-[difftool]
+[diff]
+        tool = vimdiff
         prompt = false
 [help]
         autocorrect = 1
