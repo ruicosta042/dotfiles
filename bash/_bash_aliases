@@ -15,3 +15,8 @@ alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
 alias top="htop"
+
+alias g="git"
+alias t="task"
+alias x="tmuxinator"
+alias v="vim"
