@@ -1,58 +1,18 @@
 [
   {
-    "key": "cmd+1",
-    "command": "workbench.action.openEditorAtIndex1"
+    "key": "alt+]",
+    "command": "workbench.action.nextEditorInGroup"
   },
   {
-    "key": "cmd+2",
-    "command": "workbench.action.openEditorAtIndex2"
+    "key": "alt+[",
+    "command": "workbench.action.previousEditorInGroup"
   },
   {
-    "key": "cmd+3",
-    "command": "workbench.action.openEditorAtIndex3"
+    "key": "[IntlBackslash] shift+\\",
+    "command": "workbench.action.splitEditor"
   },
   {
-    "key": "cmd+4",
-    "command": "workbench.action.openEditorAtIndex4"
-  },
-  {
-    "key": "cmd+5",
-    "command": "workbench.action.openEditorAtIndex5"
-  },
-  {
-    "key": "cmd+6",
-    "command": "workbench.action.openEditorAtIndex6"
-  },
-  {
-    "key": "cmd+7",
-    "command": "workbench.action.openEditorAtIndex7"
-  },
-  {
-    "key": "cmd+8",
-    "command": "workbench.action.openEditorAtIndex8"
-  },
-  {
-    "key": "cmd+9",
-    "command": "workbench.action.openEditorAtIndex9"
-  },
-  {
-    "key": "shift+alt+f12",
-    "command": "-references-view.find",
-    "when": "editorHasReferenceProvider"
-  },
-  {
-    "key": "cmd+s",
-    "command": "git.stage",
-    "when": "activeViewlet == 'workbench.view.scm'"
-  },
-  {
-    "key": "cmd+u",
-    "command": "git.unstage",
-    "when": "activeViewlet == 'workbench.view.scm'"
-  },
-  {
-    "key": "cmd+r",
-    "command": "git.clean",
-    "when": "activeViewlet == 'workbench.view.scm'"
+    "key": "[IntlBackslash] -",
+    "command": "workbench.action.splitEditorOrthogonal"
   }
 ]
