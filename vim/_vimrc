@@ -16,3 +16,15 @@ augroup ResetCursorShape
 au!
 autocmd VimEnter * :normal :startinsert :stopinsert
 augroup END
+
+
+" leader key
+let mapleader = "§"
+
+" pane management
+nmap <Leader>- <C-w>s
+nmap <Leader>\| <C-w>v
+nmap <Leader>j <C-w>j
+nmap <Leader>k <C-w>k
+nmap <Leader>h <C-w>h
+nmap <Leader>l <C-w>l
