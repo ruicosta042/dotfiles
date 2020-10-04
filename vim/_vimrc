@@ -4,3 +4,15 @@ Plug 'tpope/vim-surround'
 Plug 'arcticicestudio/nord-vim'
 call plug#end()
 
+" Change cursor shape between insert and normal mode
+let &t_SI = "\e[5 q"
+let &t_EI = "\e[1 q"
+
+" Reset cursor on startup
+" because the cursor is coming in insert mode from tmux/bash
+" and should start in normal mode
+" https://vi.stackexchange.com/a/21673
+augroup ResetCursorShape
+au!
+autocmd VimEnter * :normal :startinsert :stopinsert
+augroup END
