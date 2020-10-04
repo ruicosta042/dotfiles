@@ -16,8 +16,45 @@
 [help]
         autocorrect = 1
 [alias]
-        # last branches
-        lb = !git reflog show --pretty=format:'%gs ~ %gd' --date=relative | grep 'checkout:' | grep -oE '[^ ]+ ~ .*' | awk -F~ '!seen[$1]++' | head -n 10 | awk -F' ~ HEAD@{' '{printf(\"  \\033[33m%s: \\033[37m %s\\033[0m\\n\", substr($2, 1, length($2)-1), $1)}'
+        ad = add
+        br = branch
+        brd = branch --delete
+        brD = branch --delete --force
+        brr = branch --remotes
+        cm = commit --verbose
+        cmm = commit --verbose --message
+        cma = commit --amend
+        cman = commit --amend --no-edit
+        ch = checkout
+        chb = checkout -b
+        cp = cherry-pick
+        cpa = cherry-pick --abort
+        cpc = cherry-pick --continue
+        fe = fetch
+        pl = pull
+        plr = pull --rebase
+        ps = push
+        psf = push --force-with-lease
+        rb = rebase
+        rba = rebase --abort
+        rbc = rebase --continue
+        rbi = rebase --interactive
+        rs = reset
+        sh = stash
+        shc = stash clear
+        shl = stash list
+        shp = stash pop
+        st = status --short --branch
+
+        aliases = config --get-regexp alias
+        pruneremote = remote prune
+
+        # Find commits by commit message
+        fm = "!f() { git log --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cd%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --decorate --date=short --grep=$1; }; f"
+
+        # Remove branches that have already been merged with main.
+        # # a.k.a. ‘delete merged’
+        bdm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
         # better log
         l = !git log --color=always --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cr%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --abbrev-commit \
