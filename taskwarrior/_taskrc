@@ -25,6 +25,7 @@ alias.l=list
 alias.m=modify
 alias.n=annotate
 alias.rm=delete
+alias.s=start
 
 # User defined attributes
 uda.size.type=numeric
