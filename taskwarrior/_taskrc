@@ -1,0 +1,47 @@
+# [Created by task 2.5.1 10/3/2020 11:47:21]
+# Taskwarrior program configuration file.
+# For more documentation, see http://taskwarrior.org or try 'man task', 'man task-color',
+# 'man task-sync' or 'man taskrc'
+
+# Here is an example of entries that use the default, override and blank values
+#   variable=foo   -- By specifying a value, this overrides the default
+#   variable=      -- By specifying no value, this means no default
+#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
+
+# Use the command 'task show' to see all defaults and overrides
+
+# Files
+data.location=~/.task
+
+# UI
+include ~/.task/nord.theme
+
+# Aliases
+alias.a=add
+alias.ctx=context
+alias.d=done
+alias.e=edit
+alias.l=list
+alias.m=modify
+alias.n=annotate
+alias.rm=delete
+
+# User defined attributes
+uda.size.type=numeric
+uda.size.label=Size
+uda.size.values=1,3,5,8,13
+uda.size.default=1
+
+# Urgency
+urgency.uda.size.1.coefficient=5
+urgency.uda.size.3.coefficient=4
+urgency.uda.size.5.coefficient=3
+urgency.uda.size.8.coefficient=2
+urgency.uda.size.13.coefficient=1
+
+# Reports
+report.next.columns=id,entry.age,project,tags,depends,due,size,description,due,urgency
+report.next.labels=ID,Age,Prj,Tags,Deps,Due,Size,Description,Due,Urg
+
+report.list.columns=id,entry.age,project,tags,size,description,due,urgency
+report.list.labels=ID,Age,Project,Tags,Size,Description,Due,Urg

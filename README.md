@@ -28,12 +28,12 @@ wget -qO- https://git.io/ruicdot | bash
 
 - [x] [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) - git info
 - [x] [bash](https://www.gnu.org/software/bash/) - shell
-- [x] [bat](https://github.com/sharkdp/bat) - `cat` clone with syntax highlightning
 - [x] [dust](https://github.com/bootandy/dust) - disk usage
 - [x] [fzf](https://github.com/junegunn/fzf) - command-line fuzzy finder
 - [x] [ngrok](https://ngrok.com/) - tunnels to localhost
 - [x] [nvm](https://github.com/nvm-sh/nvm) - nodejs version manager
 - [x] [python](https://www.python.org/) - `python` interpreter
+- [x] [taskwarrior](https://taskwarrior.org) - task management
 - [x] [tldr](https://github.com/tldr-pages/tldr) - community-driven man pages
 - [x] [z](https://github.com/rupa/z) - jump around directories
 
@@ -50,7 +50,6 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [iterm2](https://www.iterm2.com/) - terminal
 - [x] [homebrew](https://brew.sh/) - package manager
 - [x] [kap](https://getkap.co/) - screen recording
-- [x] [maccy](https://maccy.app/) - clipboard manager
 - [x] [rectangle](https://github.com/rxhanson/Rectangle) - window management
 - [x] [thor](https://github.com/gbammc/Thor) - application switcher
 - [ ] [authy](https://authy.com/) - 2FA authenticator app
