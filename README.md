@@ -35,6 +35,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [python](https://www.python.org/) - `python` interpreter
 - [x] [taskwarrior](https://taskwarrior.org) - task management
 - [x] [tldr](https://github.com/tldr-pages/tldr) - community-driven man pages
+- [x] [tmux](https://github.com/tmux/tmux/wiki) - terminal multiplexer
 - [x] [z](https://github.com/rupa/z) - jump around directories
 
 #### General use
