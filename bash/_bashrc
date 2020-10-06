@@ -1,14 +1,4 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
-
-# If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
-esac
-
 if [ -f ~/.bash_profile ]; then
   . ~/.bash_profile
 fi
 
-# [macos] remove bash deprecation warning
-export BASH_SILENCE_DEPRECATION_WARNING=1
