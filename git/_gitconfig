@@ -16,37 +16,6 @@
 [help]
         autocorrect = 1
 [alias]
-        ad = add
-        br = branch
-        brd = branch --delete
-        brD = branch --delete --force
-        brr = branch --remotes
-        cm = commit --verbose
-        cmm = commit --verbose --message
-        cma = commit --amend
-        cman = commit --amend --no-edit
-        ch = checkout
-        chb = checkout -b
-        cp = cherry-pick
-        cpa = cherry-pick --abort
-        cpc = cherry-pick --continue
-        fe = fetch
-        pl = pull
-        plr = pull --rebase
-        ps = push
-        psf = push --force-with-lease
-        psu = push -u
-        rb = rebase
-        rba = rebase --abort
-        rbc = rebase --continue
-        rbi = rebase --interactive
-        rs = reset
-        sh = stash
-        shc = stash clear
-        shl = stash list
-        shp = stash pop
-        st = status --short --branch
-
         aliases = config --get-regexp alias
         pruneremote = remote prune
 
