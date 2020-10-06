@@ -18,24 +18,16 @@ wget -qO- https://git.io/ruicdot | bash
 
 ## Software
 
-#### Development
+#### Tools
 
-- [x] [vscode](https://code.visualstudio.com/) - code editor
-- [x] [git](https://git-scm.com/) - source control
-- [x] [vim](https://www.vim.org/) - text editor
-
-#### Shell
-
-- [x] [bash-git-prompt](https://github.com/magicmonty/bash-git-prompt) - git info
 - [x] [bash](https://www.gnu.org/software/bash/) - shell
-- [x] [dust](https://github.com/bootandy/dust) - disk usage
-- [x] [fzf](https://github.com/junegunn/fzf) - command-line fuzzy finder
+- [x] [git](https://git-scm.com/) - source control
 - [x] [ngrok](https://ngrok.com/) - tunnels to localhost
 - [x] [nvm](https://github.com/nvm-sh/nvm) - nodejs version manager
-- [x] [python](https://www.python.org/) - `python` interpreter
 - [x] [taskwarrior](https://taskwarrior.org) - task management
-- [x] [tldr](https://github.com/tldr-pages/tldr) - community-driven man pages
 - [x] [tmux](https://github.com/tmux/tmux/wiki) - terminal multiplexer
+- [x] [vim](https://www.vim.org/) - text editor
+- [x] [vscode](https://code.visualstudio.com/) - code editor
 - [x] [z](https://github.com/rupa/z) - jump around directories
 
 #### General use
