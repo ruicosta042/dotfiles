@@ -20,15 +20,12 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### Tools
 
-- [x] [bash](https://www.gnu.org/software/bash/) - shell
 - [x] [git](https://git-scm.com/) - source control
-- [x] [ngrok](https://ngrok.com/) - tunnels to localhost
-- [x] [nvm](https://github.com/nvm-sh/nvm) - nodejs version manager
 - [x] [taskwarrior](https://taskwarrior.org) - task management
 - [x] [tmux](https://github.com/tmux/tmux/wiki) - terminal multiplexer
 - [x] [vim](https://www.vim.org/) - text editor
 - [x] [vscode](https://code.visualstudio.com/) - code editor
-- [x] [z](https://github.com/rupa/z) - jump around directories
+- [x] [zsh](https://www.zsh.org/) - shell
 
 #### General use
 

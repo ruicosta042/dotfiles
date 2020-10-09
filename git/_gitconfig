@@ -16,15 +16,7 @@
 [help]
         autocorrect = 1
 [alias]
-        aliases = config --get-regexp alias
         pruneremote = remote prune
-
-        # Find commits by commit message
-        fm = "!f() { git log --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cd%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --decorate --date=short --grep=$1; }; f"
-
-        # Remove branches that have already been merged with main.
-        # # a.k.a. ‘delete merged’
-        brdm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
 
         # better log
         l = !git log --color=always --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cr%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --abbrev-commit \

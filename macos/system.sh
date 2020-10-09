@@ -11,7 +11,7 @@ sudo xcodebuild -license
 
 # homebrew
 echo "[macos] homebrew"
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew update
 brew install caskroom/cask/brew-cask 2> /dev/null
 brew install coreutils

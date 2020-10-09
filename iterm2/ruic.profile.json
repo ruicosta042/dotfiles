@@ -3,8 +3,6 @@
     {
       "Name": "ruic",
       "Guid": "04902148-e89d-4ca2-818d-dae26d7aa557",
-      "Custom Command": "Yes",
-      "Command": "bash",
       "Normal Font": "Hack-Bold 12",
       "Vertical Spacing": 1,
       "Visual Bell": true,

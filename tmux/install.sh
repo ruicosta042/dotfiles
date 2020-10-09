@@ -17,11 +17,6 @@ setup () {
   # tmux tab completion
   curl -o tmux/_tmux-completion https://raw.githubusercontent.com/imomaliev/tmux-bash-completion/master/completions/tmux
   cp vim/_tmux-completion "$HOME/.dotfiles/tmux-completion"
-  cat << EOT >> "$DOTFILES_DIR/bash"
-
-# tmux completion
-source $DOTFILES_DIR/tmux-completion
-EOT
 
   # tmuxinator default project
   mkdir "$HOME/.config/.tmuxinator"

@@ -28,8 +28,6 @@ sudo cp "ubuntu/assets/catalina-wallpaper.jpg" /usr/share/backgrounds
 sudo apt-get install fonts-hack-ttf -y
 
 echo "[ubuntu] command line utilities"
-sudo apt-get install bat -y     # better cat (syntax highlighting)
-sudo apt-get install dust -y    # better du -sh
 sudo apt-get install yank -y    # copy terminal output to clipboard 
 sudo apt-get install fzf -y     # file fuzzy finder
 
