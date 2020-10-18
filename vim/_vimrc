@@ -8,7 +8,9 @@ Plug 'xarthurx/taskwarrior.vim'
 call plug#end()
 
 
+" theme
 colorscheme nord
+highlight Visual ctermbg=Blue ctermfg=Black
 
 " show line numbers
 set number 
@@ -18,7 +20,6 @@ let &t_SI = "\e[5 q"
 let &t_EI = "\e[1 q"
 
 " clipboard (so that yank goes to OS clipboard)
-" https://www.devroom.io/2017/03/22/tmux-and-vim-copy-and-paste-on-macos-sierra/
 set clipboard=unnamed
 
 " Reset cursor on startup
