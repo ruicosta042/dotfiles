@@ -1,16 +1,28 @@
 call plug#begin()
+Plug 'arcticicestudio/nord-vim'
+Plug 'junegunn/goyo.vim'
+Plug 'preservim/nerdtree'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
-Plug 'arcticicestudio/nord-vim'
+Plug 'xarthurx/taskwarrior.vim'
 call plug#end()
 
-" Change cursor shape between insert and normal mode
+
+colorscheme nord
+
+" show line numbers
+set number 
+
+" Change cursor shape between insert and normal mode 
 let &t_SI = "\e[5 q"
 let &t_EI = "\e[1 q"
 
+" clipboard (so that yank goes to OS clipboard)
+" https://www.devroom.io/2017/03/22/tmux-and-vim-copy-and-paste-on-macos-sierra/
+set clipboard=unnamed
+
 " Reset cursor on startup
 " because the cursor is coming in insert mode from tmux/bash
-" and should start in normal mode
 " https://vi.stackexchange.com/a/21673
 augroup ResetCursorShape
 au!
@@ -18,6 +30,8 @@ autocmd VimEnter * :normal :startinsert :stopinsert
 augroup END
 
 
+
+" SHORTCUTS
 " leader key
 let mapleader = "§"
 
@@ -28,3 +42,12 @@ nmap <Leader>j <C-w>j
 nmap <Leader>k <C-w>k
 nmap <Leader>h <C-w>h
 nmap <Leader>l <C-w>l
+
+" toggle nerdtree
+nmap <Leader>o :NERDTreeToggle<CR>
+
+" toggle goyo mode
+nmap <Leader>g :Goyo<CR>
+
+" toggle taskwarrior
+nmap <Leader>t : TW<CR>
