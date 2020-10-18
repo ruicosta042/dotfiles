@@ -1,5 +1,7 @@
 call plug#begin()
 Plug 'arcticicestudio/nord-vim'
+Plug 'gabrielelana/vim-markdown'
+Plug 'godlygeek/tabular'
 Plug 'junegunn/goyo.vim'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-sensible'
@@ -15,7 +17,7 @@ highlight Visual ctermbg=Blue ctermfg=Black
 " show line numbers
 set number 
 
-" Change cursor shape between insert and normal mode 
+" change cursor shape between insert and normal mode 
 let &t_SI = "\e[5 q"
 let &t_EI = "\e[1 q"
 
@@ -29,6 +31,14 @@ augroup ResetCursorShape
 au!
 autocmd VimEnter * :normal :startinsert :stopinsert
 augroup END
+
+
+
+" MARKDOWN
+" don't fold chapters
+set nofoldenable
+" set Goyo mode by default when opening .md files
+au Filetype markdown Goyo 80
 
 
 
@@ -48,7 +58,8 @@ nmap <Leader>l <C-w>l
 nmap <Leader>o :NERDTreeToggle<CR>
 
 " toggle goyo mode
-nmap <Leader>g :Goyo<CR>
+nmap <Leader>z :Goyo<CR>
 
 " toggle taskwarrior
-nmap <Leader>t : TW<CR>
+nmap <Leader>t :TW<CR>
+
