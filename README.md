@@ -33,6 +33,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [docker](https://www.docker.com/) - containers
 - [x] [firefox](https://www.mozilla.org/en-GB/firefox/new/) - browser
 - [x] [hosts](https://github.com/StevenBlack/hosts) - hosts file for ad-blocking
+- [x] [nb](https://github.com/xwmx/nb) - bookmark manager
 - [x] [virtualbox](https://www.virtualbox.org/wiki/Downloads) - virtual environments
 
 #### macOS specific
