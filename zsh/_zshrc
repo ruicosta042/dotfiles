@@ -78,53 +78,16 @@ fi
 
 
 # ALIASES
+alias g="git"
+alias ls='gls --group-directories-first --color=auto -la'
 alias t="task"
 alias top="htop"
 alias v="vim"
 alias x="tmuxinator"
-alias l='gls --group-directories-first --color=auto -la'
 
 # SUFFIX ALIASES
 alias -s {js,jsx,ts,tsx,json,css,scss,md}=code
 
-# GIT ALIASES
-alias g="git"
-alias gbr="git branch"
-alias gch="git checkout"
-alias gbrd='git branch --delete'
-alias gbrD='git branch --delete --force'
-# Remove branches that have already been merged with main.
-# a.k.a. ‘delete merged’
-alias gbrdm="git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"
-alias gbrr='git branch --remotes'
-alias gcm='git commit --verbose'
-alias gcmm='git commit --verbose --message'
-alias gcma='git commit --amend'
-alias gcman='git commit --amend --no-edit'
-alias gch='git checkout'
-alias gchb='git checkout -b'
-alias gcp='git cherry-pick'
-alias gcpa='git cherry-pick --abort'
-alias gcpc='git cherry-pick --continue'
-alias gfe='git fetch'
-# Find commits by commit message
-alias gfm="!f() { git log --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cd%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --decorate --date=short --grep=$1; }; f"
-alias gl='git l'
-alias gpl='git pull'
-alias gplr='git pull --rebase'
-alias gps='git push'
-alias gpsf='git push --force-with-lease'
-alias gpsu='git push -u'
-alias grb='git rebase'
-alias grba='git rebase --abort'
-alias grbc='git rebase --continue'
-alias grbi='git rebase --interactive'
-alias grs='git reset'
-alias gsh='git stash'
-alias gshc='git stash clear'
-alias gshl='git stash list'
-alias gshp='git stash pop'
-alias gst='git status --short --branch'
 
 
 
