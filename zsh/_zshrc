@@ -78,12 +78,13 @@ fi
 
 
 # ALIASES
+alias co="code"
 alias g="git"
 alias ls='gls --group-directories-first --color=auto -la'
-alias t="task"
 alias top="htop"
-alias v="vim"
-alias x="tmuxinator"
+alias tx="tmuxinator"
+alias tw="task"
+alias vi="vim"
 
 # SUFFIX ALIASES
 alias -s {js,jsx,ts,tsx,json,css,scss,md}=code
