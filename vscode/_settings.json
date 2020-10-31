@@ -57,7 +57,12 @@
   "window.zoomLevel": 0,
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Nord",
+  "workbench.colorCustomizations": {
+    "editor.selectionBackground": "#81a1c1",
+    "editor.selectionForeground": "#2e3440"
+  },
   "workbench.editor.limit.enabled": true,
+
   "workbench.editor.limit.value": 5,
   "workbench.iconTheme": "seti",
   "workbench.panel.defaultLocation": "right"
