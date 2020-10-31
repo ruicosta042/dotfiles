@@ -48,6 +48,9 @@
         shp = stash pop
         st = status --short --branch
 
+        # Show number of commits per author
+        sl = shortlog -c -s
+
         # Remove remote branches that have already been merged to main
         rmp = remote prune
 
