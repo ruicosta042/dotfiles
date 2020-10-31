@@ -2,20 +2,32 @@ call plug#begin()
 Plug 'arcticicestudio/nord-vim'
 Plug 'gabrielelana/vim-markdown'
 Plug 'godlygeek/tabular'
-Plug 'junegunn/goyo.vim'
 Plug 'preservim/nerdtree'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
-Plug 'xarthurx/taskwarrior.vim'
 call plug#end()
+
 
 
 " theme
 colorscheme nord
 highlight Visual ctermbg=Blue ctermfg=Black
 
+
+
 " show line numbers
 set number 
+" soft tabs
+set tabstop=2 shiftwidth=2 expandtab
+" backspace behavior
+set backspace=2
+" text wrap
+" https://vim.fandom.com/wiki/Word_wrap_without_line_breaks
+set wrap
+set linebreak
+set columns=80
+
+
 
 " change cursor shape between insert and normal mode 
 let &t_SI = "\e[5 q"
@@ -23,6 +35,8 @@ let &t_EI = "\e[1 q"
 
 " clipboard (so that yank goes to OS clipboard)
 set clipboard=unnamed
+
+
 
 " Reset cursor on startup
 " because the cursor is coming in insert mode from tmux/bash
@@ -37,8 +51,6 @@ augroup END
 " MARKDOWN
 " don't fold chapters
 set nofoldenable
-" set Goyo mode by default when opening .md files
-au Filetype markdown Goyo 80
 
 
 
@@ -56,10 +68,3 @@ nmap <Leader>l <C-w>l
 
 " toggle nerdtree
 nmap <Leader>o :NERDTreeToggle<CR>
-
-" toggle goyo mode
-nmap <Leader>z :Goyo<CR>
-
-" toggle taskwarrior
-nmap <Leader>t :TW<CR>
-
