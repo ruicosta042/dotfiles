@@ -20,8 +20,7 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### Tools
 
-- [x] [git](https://git-scm.com/) - source control
-- [x] [taskwarrior](https://taskwarrior.org) - task management
+- [x] [git](https://git-scm.com/) - code version control
 - [x] [tmux](https://github.com/tmux/tmux/wiki) - terminal multiplexer
 - [x] [vim](https://www.vim.org/) - text editor
 - [x] [vscode](https://code.visualstudio.com/) - code editor
@@ -34,7 +33,9 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [firefox](https://www.mozilla.org/en-GB/firefox/new/) - browser
 - [x] [hosts](https://github.com/StevenBlack/hosts) - hosts file for ad-blocking
 - [x] [nb](https://github.com/xwmx/nb) - bookmark manager
+- [x] [taskwarrior](https://taskwarrior.org) - task management
 - [x] [virtualbox](https://www.virtualbox.org/wiki/Downloads) - virtual environments
+- [x] [z](https://github.com/rupa/z) - jump around directories
 
 #### macOS specific
 
