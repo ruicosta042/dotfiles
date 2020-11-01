@@ -42,6 +42,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [iterm2](https://www.iterm2.com/) - terminal
 - [x] [homebrew](https://brew.sh/) - package manager
 - [x] [kap](https://getkap.co/) - screen recording
+- [x] [rambox](https://rambox.app) - communications
 - [x] [rectangle](https://github.com/rxhanson/Rectangle) - window management
 - [x] [thor](https://github.com/gbammc/Thor) - application switcher
 - [ ] [authy](https://authy.com/) - 2FA authenticator app
