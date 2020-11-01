@@ -9,21 +9,16 @@
   "editor.scrollBeyondLastLine": false,
   "editor.tabSize": 2,
   "eslint.alwaysShowStatus": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    "typescript"
-  ],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript"],
   "explorer.openEditors.visible": 0,
+  "extensions.autoUpdate": true,
+  "extensions.ignoreRecommendations": true,
   "git.path": "__GIT_EXECUTABLE_PATH__",
   "javascript.suggest.autoImports": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
   "shellcheck.disableVersionCheck": true,
-  "shellcheck.exclude": [
-    "SC1090",
-    "SC1091"
-  ],
+  "shellcheck.exclude": ["SC1090", "SC1091"],
   "shellcheck.executablePath": "__SHELLCHECK_EXECUTABLE_PATH__",
   "shellcheck.run": "onSave",
   "terminal.integrated.shell.osx": "__INTEGRATED_SHELL_OSX_PATH__",
@@ -34,12 +29,7 @@
   "todo.colors.project": "#5e81ac",
   "todo.colors.projectStatistics": "#81a1c1",
   "todo.colors.tag": "#88c0d0",
-  "todo.colors.tags.background": [
-    "#bf616a",
-    "#d08770",
-    "#ebcb8b",
-    "#a3be8c"
-  ],
+  "todo.colors.tags.background": ["#bf616a", "#d08770", "#ebcb8b", "#a3be8c"],
   "turboConsoleLog.logMessagePrefix": "ruic",
   "typescript.suggest.autoImports": false,
   "typescript.tsdk": "node_modules/typescript/lib",
@@ -62,7 +52,6 @@
     "editor.selectionForeground": "#2e3440"
   },
   "workbench.editor.limit.enabled": true,
-
   "workbench.editor.limit.value": 5,
   "workbench.iconTheme": "seti",
   "workbench.panel.defaultLocation": "right"
