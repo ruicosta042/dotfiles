@@ -2,7 +2,7 @@
 
 mac () {
   brew cask install docker
-  brew cask install kitematic
+  brew install docker-compose
 }
 
 os_call "[docker] install?" mac
