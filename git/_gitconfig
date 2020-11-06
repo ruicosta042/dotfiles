@@ -50,6 +50,8 @@
   shp = stash pop
   sl = shortlog -c -s                 # Show number of commits per author
   st = status --short --branch
+  sw = show
+  swfc = show --pretty="" --name-only # List files on commit
   
 
 [core]
