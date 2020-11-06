@@ -33,6 +33,7 @@ brew install fzf    # fuzzy file finder
 brew install tldr   # community driven by example man pages
 brew install z      # jump around directories
 brew install wallpaper  # manage desktop wallpaper
+brew install gron
 
 # general utilities
 brew cask install kap         # screen recording (gifs)
