@@ -40,6 +40,13 @@
   "vim.highlightedyank.enable": true,
   "vim.leader": ",",
   "vim.mouseSelectionGoesIntoVisualMode": false,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [ "<Esc>" ],
+      "commands": [ ":nohl" ]
+    }
+  ],
+  "vim.hlsearch": true,
   "vim.sneak": true,
   "vim.sneakUseIgnorecaseAndSmartcase": true,
   "vim.useSystemClipboard": true,
