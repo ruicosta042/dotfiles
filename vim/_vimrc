@@ -1,4 +1,5 @@
 call plug#begin()
+Plug 'airblade/vim-gitgutter'
 Plug 'arcticicestudio/nord-vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'gabrielelana/vim-markdown'
