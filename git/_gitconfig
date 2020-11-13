@@ -48,6 +48,7 @@
   shc = stash clear
   shl = stash list
   shp = stash pop
+  shu = stash push
   sl = shortlog -c -s                 # Show number of commits per author
   st = status --short --branch
   sw = show
