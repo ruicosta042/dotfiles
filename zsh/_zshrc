@@ -107,6 +107,9 @@ alias tx="tmuxinator"
 alias tw="task"
 alias vi="vim"
 
+alias topcpu="ps aux | sort -n -r -k 3 | head -n 10"
+alias topmem="ps aux | sort -n -r -k 4 | head -n 10"
+
 # SUFFIX ALIASES
 alias -s {js,jsx,ts,tsx,json,css,scss,md}=code
 
