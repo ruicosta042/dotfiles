@@ -1,10 +1,8 @@
 call plug#begin()
 Plug 'airblade/vim-gitgutter'
 Plug 'arcticicestudio/nord-vim'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'gabrielelana/vim-markdown'
 Plug 'godlygeek/tabular'
-Plug 'preservim/nerdtree'
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-surround'
 call plug#end()
@@ -53,16 +51,6 @@ nmap <Leader>j <C-w>j                 "Switch to pane below
 nmap <Leader>k <C-w>k                 "Switch to pane on top
 nmap <Leader>h <C-w>h                 "Switch to pane to the left
 nmap <Leader>l <C-w>l                 "Switch to pane to the right
-nmap <Leader>o :NERDTreeToggle<CR>    "Toggle nerdtree
-
-
-
-"----------------
-" PLUGINS 
-"----------------
-
-let g:ctrlp_map = '<c-p>'             "CTRL+P - fuzzy file finder
-let g:ctrlp_cmd = 'CtrlP'
 
 
 
