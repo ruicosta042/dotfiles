@@ -10,6 +10,7 @@
   brD = branch --delete --force
   brd = branch --delete
   brdm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"    # Delete merged
+  brm = branch -m
   ch = checkout
   chb = checkout -b
   cl = clone
