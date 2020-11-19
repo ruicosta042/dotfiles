@@ -13,7 +13,20 @@
   "explorer.openEditors.visible": 0,
   "extensions.autoUpdate": true,
   "extensions.ignoreRecommendations": true,
+  "files.simpleDialog.enable": true,
   "git.path": "__GIT_EXECUTABLE_PATH__",
+  "gitlens.menus": {
+    "editorGroup": {
+      "blame": false,
+      "compare": false
+    }
+  },
+  "gitlens.views.commits.showBranchComparison": false,
+  "gitlens.views.commits.pullRequests.enabled": false,
+  "gitlens.views.commits.files.compact": false,
+  "gitlens.views.commits.avatars": false,
+  "gitlens.views.fileHistory.avatars": false,
+  "gitlens.views.showRelativeDateMarkers": false,
   "javascript.suggest.autoImports": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
@@ -42,8 +55,8 @@
   "vim.mouseSelectionGoesIntoVisualMode": false,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [ "<Esc>" ],
-      "commands": [ ":nohl" ]
+      "before": ["<Esc>"],
+      "commands": [":nohl"]
     }
   ],
   "vim.hlsearch": true,
@@ -61,5 +74,6 @@
   "workbench.editor.limit.enabled": true,
   "workbench.editor.limit.value": 5,
   "workbench.iconTheme": "seti",
-  "workbench.panel.defaultLocation": "right"
+  "workbench.panel.defaultLocation": "right",
+  "workbench.startupEditor": "newUntitledFile"
 }
