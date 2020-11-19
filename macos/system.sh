@@ -24,7 +24,6 @@ brew tap homebrew/cask-fonts
 brew cask install homebrew/cask-fonts/font-hack
 
 echo "[macos] command line utilities"
-brew install dust   # better du -sh
 brew install htop   # better top
 brew install jq
 brew install yank   # copy terminal output to clipboard 
