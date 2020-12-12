@@ -44,7 +44,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [kap](https://getkap.co/) - screen recording
 - [x] [rambox](https://rambox.app) - communications
 - [x] [rectangle](https://github.com/rxhanson/Rectangle) - window management
-- [x] [thor](https://github.com/gbammc/Thor) - application switcher
+- [x] [apptivate](http://www.apptivateapp.com/) - application hotkeys
 - [ ] [authy](https://authy.com/) - 2FA authenticator app
 - [ ] [cleanmymac x](https://macpaw.com/cleanmymac) - system cleaner
 - [ ] [sketch](https://www.sketch.com/) - image editor
