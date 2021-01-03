@@ -43,6 +43,9 @@ setup () {
     -e "s/__GIT_USERNAME__/$name/g" \
     -e "s/__GIT_EMAIL__/$email/g" \
     "git/_gitconfig" > "$DOTFILES_DIR/gitconfig"
+
+  # default branch name 
+  git config --global init.defaultBranch main
 }
 
 os_call "[git] install?" mac ubuntu
