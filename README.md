@@ -28,6 +28,7 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### General use
 
+- [x] [bitwarden](https://bitwarden.com/) - password management
 - [x] [chromium](https://www.chromium.org/) - browser
 - [x] [docker](https://www.docker.com/) - containers
 - [x] [firefox](https://www.mozilla.org/en-GB/firefox/new/) - browser
