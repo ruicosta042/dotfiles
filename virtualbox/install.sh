@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 mac () {
-  brew cask install virtualbox
-  brew cask install virtualbox-extension-pack
+  brew install virtualbox
+  brew install virtualbox-extension-pack
   setup
 }
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 mac () {
-  brew cask install visual-studio-code
+  brew install visual-studio-code
   brew install shellcheck
   setup ~/Library/Application\ Support/Code/User/settings.json
   cp vscode/_keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json 

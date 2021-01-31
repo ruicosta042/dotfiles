@@ -29,15 +29,14 @@ brew install jq
 brew install yank   # copy terminal output to clipboard 
 brew install fzf    # fuzzy file finder
 "$(brew --prefix)"/opt/fzf/install --all
-brew install tldr   # community driven by example man pages
 brew install z      # jump around directories
 brew install wallpaper  # manage desktop wallpaper
-brew install gron
 
 # general utilities
-brew cask install kap         # screen recording (gifs)
+brew install kap          # screen recording 
+brew install runjs        # js/ts repl
 
-brew cask install rectangle   # window manager
+brew install rectangle    # window manager
 defaults write com.knollsoft.Rectangle launchOnLogin -bool true
 defaults write com.knollsoft.Rectangle alternateDefaultShortcuts -bool true
 

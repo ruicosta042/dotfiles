@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 mac () {
-  brew cask install bitwarden
+  brew install bitwarden
 }
 
 ubuntu () {

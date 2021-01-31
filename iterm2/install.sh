@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 mac () {
-  brew cask install iterm2
+  brew install iterm2
   mkdir -p ~/Library/Application\ Support/iTerm2/DynamicProfiles
   cp iterm2/ruic.profile.json ~/Library/Application\ Support/iTerm2/DynamicProfiles/ruic
 

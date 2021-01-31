@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 mac () {
-  brew cask install ngrok
+  brew install ngrok
 }
 
 ubuntu () {

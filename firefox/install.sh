@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
 
 mac () {
-  brew cask install firefox
-  brew cask install homebrew/cask-versions/firefox-developer-edition
+  brew install firefox
 }
 
 ubuntu () {

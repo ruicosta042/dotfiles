@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 mac () {
-  brew cask install docker
+  brew install docker
   brew install docker-compose
 }
 

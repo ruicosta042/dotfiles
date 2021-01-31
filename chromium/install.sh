@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 mac () {
-  brew cask install chromium
+  brew install chromium
 
   # so that the firewall doesn't ask to block incoming connections
   codesign --force --deep --sign - /Applications/Chromium.app/Contents/MacOS/Chromium
