@@ -33,9 +33,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [docker](https://www.docker.com/) - containers
 - [x] [firefox](https://www.mozilla.org/en-GB/firefox/new/) - browser
 - [x] [hosts](https://github.com/StevenBlack/hosts) - hosts file for ad-blocking
-- [x] [nb](https://github.com/xwmx/nb) - bookmark manager
 - [x] [taskwarrior](https://taskwarrior.org) - task management
-- [x] [virtualbox](https://www.virtualbox.org/wiki/Downloads) - virtual environments
 - [x] [z](https://github.com/rupa/z) - jump around directories
 
 #### macOS specific
@@ -46,9 +44,7 @@ wget -qO- https://git.io/ruicdot | bash
 - [x] [rambox](https://rambox.app) - communications
 - [x] [rectangle](https://github.com/rxhanson/Rectangle) - window management
 - [x] [apptivate](http://www.apptivateapp.com/) - application hotkeys
-- [ ] [authy](https://authy.com/) - 2FA authenticator app
 - [ ] [cleanmymac x](https://macpaw.com/cleanmymac) - system cleaner
-- [ ] [sketch](https://www.sketch.com/) - image editor
 
 #### Ubuntu specific
 
