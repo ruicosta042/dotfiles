@@ -14,5 +14,10 @@
   {
     "key": "[IntlBackslash] -",
     "command": "workbench.action.splitEditorOrthogonal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
   }
 ]
