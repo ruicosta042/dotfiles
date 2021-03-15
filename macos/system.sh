@@ -25,7 +25,8 @@ brew install font-hack
 
 echo "[macos] command line utilities"
 brew install htop   # better top
-brew install jq
+brew install jq     # json processor
+brew install ag     # code-searching tool
 brew install fzf    # fuzzy file finder
 "$(brew --prefix)"/opt/fzf/install --all
 brew install z      # jump around directories

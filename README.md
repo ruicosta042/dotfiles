@@ -28,6 +28,7 @@ wget -qO- https://git.io/ruicdot | bash
 
 #### General use
 
+- [x] [ag](https://github.com/ggreer/the_silver_searcher) - code-searching
 - [x] [bitwarden](https://bitwarden.com/) - password management
 - [x] [chromium](https://www.chromium.org/) - browser
 - [x] [docker](https://www.docker.com/) - containers
