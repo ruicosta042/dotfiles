@@ -1,6 +1,7 @@
 {
   "breadcrumbs.enabled": true,
   "breadcrumbs.symbolSortOrder": "name",
+  "breadcrumbs.symbolPath": "off",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.fontFamily": "Hack, monospace",
   "editor.fontSize": 12,

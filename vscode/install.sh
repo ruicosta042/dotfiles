@@ -48,6 +48,7 @@ setup () {
   code --install-extension timonwong.shellcheck
   code --install-extension Tyriar.sort-lines
   code --install-extension vscodevim.vim
+  code --install-extension usernamehw.errorlens
   code --install-extension WakaTime.vscode-wakatime
   code --install-extension wix.vscode-import-cost
   code --install-extension xabikos.JavaScriptSnippets
