@@ -1,9 +1,0 @@
-! swap CMD with CTRL (macos)
-remove mod4 = Super_L
-add control = Super_L
-remove control = Control_L
-add mod4 = Control_L
-
-! disable CAPSLOCK
-clear Lock
-keycode 66 = NoSymbol
