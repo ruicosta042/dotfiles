@@ -1,6 +1,2 @@
-git/gitconfig.symlink
-nano/nanorc.symlink
-ubuntu/keyboard-macos/xkbmap.symlink
-vim/vim.symlink/autoload
-vim/vim.symlink/plugged
 .DS_Store
+Brewfile.lock.json
