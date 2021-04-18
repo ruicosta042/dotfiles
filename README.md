@@ -1,6 +1,8 @@
 # ~/.dotfiles
 
-| Environment setup - macOS/Ubuntu.
+Environment setup - macOS/Ubuntu.
+
+## Install
 
 ```shell
 
@@ -8,6 +10,17 @@ cd $HOME
 git clone https://github.com/ruicosta042/dotfiles .dotfiles
 cd .dotfiles
 ./dot.sh
+
+```
+
+## Uninstall
+
+```shell
+
+cd $HOME/.dotfiles
+./undot.sh
+cd $HOME
+rm -rf .dotfiles
 
 ```
 
