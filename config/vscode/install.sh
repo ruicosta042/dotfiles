@@ -11,7 +11,6 @@ if [[ $(os_name) == "macos" ]] ; then
   defaults write com.microsoft.VSCodeInsiders ApplePressAndHoldEnabled -bool false
 fi
 
-
 # extensions
 vscode_extensions=(
   arcticicestudio.nord-visual-studio-code
@@ -45,14 +44,19 @@ vscode_extensions=(
 )
 
 for extension in "${vscode_extensions[@]}"; do
-  code --install-extension "$extension"
+  code --install-extension "$extension" --force
 done
 
 # settings
 if [[ $(os_name) == "macos" ]] ; then
+  mkdir macos/Library/Application\ Support/Code
+  mkdir macos/Library/Application\ Support/Code/User
   vscode_rc_dir=macos/Library/Application\ Support/Code/User
   wakatime_rc=macos/.wakatime.cfg
 elif [[ $(os_name) == "ubuntu" ]] ; then
+  mkdir ubuntu/.config
+  mkdir ubuntu/.config/Code
+  mkdir ubuntu/.config/Code/User
   vscode_rc_dir=ubuntu/.config/Code/User
   wakatime_rc=ubuntu/.wakatime.cfg
 fi
@@ -72,6 +76,4 @@ cp config/vscode/keybindings.json "$keybindings_rc"
 read -r -p "[vscode] Enter your WakaTime API key: " wakatime_api_key < /dev/tty
 sed \
   -e "s|__WAKATIME_API_KEY__|$wakatime_api_key|g" \
-  "config/vscode/_wakatime.cfg" > "$wakatime_rc"
-
-
+  "config/vscode/wakatime.template.cfg" > "$wakatime_rc"

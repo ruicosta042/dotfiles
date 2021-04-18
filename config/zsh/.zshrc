@@ -129,7 +129,3 @@ RPS1=''
 export PATH=/usr/local/bin:$PATH
 # make sure node modules binaries are on callable
 export PATH=./node_modules/.bin:$PATH
-
-# check the window size after each command and, if necessary,
-# update the values of LINES and COLUMNS.
-shopt -s checkwinsize

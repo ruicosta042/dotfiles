@@ -29,7 +29,7 @@ brew upgrade --greedy
 source 'config/config.sh'
 
 if [[ $(os_name) == "macos" ]] ; then
-  stow macos -t "$HOME"
+  stow -R macos -t "$HOME"
 elif [[ $(os_name) == "ubuntu" ]] ; then
-  stow ubuntu -t "$HOME"
+  stow -R ubuntu -t "$HOME"
 fi

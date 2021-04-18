@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-# fzf
-"$(brew --prefix)"/opt/fzf/install --all
+# # fzf
+# "$(brew --prefix)"/opt/fzf/install --all
 
 # git
 source 'config/git/install.sh'
@@ -24,6 +24,10 @@ vim +PlugInstall +qall
 source 'config/vscode/install.sh'
 
 
+# zsh
+source 'config/zsh/install.sh'
+
+
 if test "$(uname)" = "Darwin" ; then
   # chromium
   # so that the firewall doesn't ask to block incoming connections
@@ -31,12 +35,7 @@ if test "$(uname)" = "Darwin" ; then
 
 
   # iterm2
-  defaults write com.googlecode.iterm2 "Default Bookmark Guid" 04902148-e89d-4ca2-818d-dae26d7aa557
-  defaults write com.googlecode.iterm2 PromptOnQuit 0;
-  defaults write com.googlecode.iterm2 QuitWhenAllWindowsClosed 1;
-  defaults write com.googlecode.iterm2 SUEnableAutomaticChecks 1;
-  defaults write com.googlecode.iterm2 "Mouse Reporting" 1;
-  # can't set the theme to minimal
+  source 'config/iterm2/install.sh'
 
 
   # rectangle

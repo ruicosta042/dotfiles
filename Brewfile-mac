@@ -1,4 +1,5 @@
 
+cask 'aerial'               # screensaver
 cask 'apptivate'            # window switcher
 cask 'iterm2'               # terminal
 cask 'kap'                  # screen recording

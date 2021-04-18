@@ -50,7 +50,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "vim.debug.silent": true,
   "vim.easymotion": true,
-  "vim.easymotionMarkerFontFamily": "Hack",
   "vim.highlightedyank.enable": true,
   "vim.leader": ",",
   "vim.mouseSelectionGoesIntoVisualMode": false,

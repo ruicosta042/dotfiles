@@ -4,15 +4,14 @@
 sudo sh -c "echo $(which zsh) >> /etc/shells"
 chsh -s "$(which zsh)"
 
-for source in $(find zsh/* -type f | sort -n) ; do
-  filename="$(basename "${source%.*}")"
+if [[ $(os_name) == "macos" ]] ; then
+  zsh_rc_dir=macos
+elif [[ $(os_name) == "ubuntu" ]] ; then
+  zsh_rc_dir=ubuntu
+fi
 
-  if [[ $(os_name) == "macos" ]] ; then
-    zsh_rc_dir=macos
-  elif [[ $(os_name) == "ubuntu" ]] ; then
-    zsh_rc_dir=ubuntu
-  fi
 
-  target="$zsh_rc_dir/${filename}"
-  cp "$source" "$target"
-done
+cp config/zsh/.dir_colors "$zsh_rc_dir"/.dir_colors
+cp config/zsh/.inputrc "$zsh_rc_dir"/.inputrc
+cp config/zsh/.zshrc "$zsh_rc_dir"/.zshrc
+

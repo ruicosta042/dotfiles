@@ -4,9 +4,10 @@
 
 ```shell
 
-# macos
 cd $HOME
 git clone https://github.com/ruicosta042/dotfiles .dotfiles
+cd .dotfiles
+./dot.sh
 
 ```
 

@@ -23,4 +23,5 @@ cask 'bitwarden'            # password manager
 cask 'chromium'             # development browser
 cask 'firefox'              # general use browser
 cask 'font-hack'            # code font
+cask 'postman'              # http requests sandbox
 cask 'visual-studio-code'   # code editor
