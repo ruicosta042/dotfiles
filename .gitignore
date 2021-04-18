@@ -1,2 +1,16 @@
 .DS_Store
 Brewfile.lock.json
+/hosts
+
+macos/.dir_colors
+macos/.gitconfig
+macos/.inputrc
+macos/.wakatime.cfg
+macos/.zshrc
+macos/Library/Application\ Support/Code/User
+
+ubuntu/.dir_colors
+ubuntu/.gitconfig
+ubuntu/.inputrc
+ubuntu/.wakatime.cfg
+ubuntu/.zshrc

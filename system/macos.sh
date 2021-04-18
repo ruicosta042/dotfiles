@@ -6,9 +6,9 @@ sudo softwareupdate -i -a
 #  xcode
 if [[ $(/usr/bin/gcc 2>&1) =~ "no developer tools were found" ]] || [[ ! -x /usr/bin/gcc ]]; then
   xcode-select --install
+  sudo xcodebuild -license accept
 fi
 
-sudo xcodebuild -license accept
 
 # homebrew
 if [[ ! -x /usr/local/bin/brew ]]; then

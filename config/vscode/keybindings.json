@@ -1,0 +1,23 @@
+[
+  {
+    "key": "alt+]",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "alt+[",
+    "command": "workbench.action.previousEditorInGroup"
+  },
+  {
+    "key": "[IntlBackslash] shift+\\",
+    "command": "workbench.action.splitEditor"
+  },
+  {
+    "key": "[IntlBackslash] -",
+    "command": "workbench.action.splitEditorOrthogonal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "terminalFocus"
+  }
+]

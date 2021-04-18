@@ -1,0 +1,9 @@
+# ~/.config/tmuxinator/default.yml
+
+name: default
+root: ~/
+
+windows:
+  - shell:
+  - tasks:
+      - t

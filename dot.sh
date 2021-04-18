@@ -1,25 +1,35 @@
 #!/usr/bin/env bash
 
+source ./lib/helpers.sh
+
 # System specific
-if test "$(uname)" = "Darwin" ; then
-  bash ./system/macos.sh
-elif test "$(lsb_release -is)" = "Ubuntu" ; then
-  bash ./system/ubuntu.sh
+if [[ $(os_name) == "macos" ]] ; then
+  source system/macos.sh
+elif [[ $(os_name) == "ubuntu" ]] ; then
+  source system/ubuntu.sh
 else
-  echo "Operative system not supported."
+  echo "OS not supported."
   exit 1
 fi
+
 
 # Homebrew
 brew update
 brew tap Homebrew/bundle
 brew bundle --verbose
-brew upgrade
+if [[ $(os_name) == "macos" ]] ; then
+  brew bundle --file Brewfile-mac
+elif [[ $(os_name) == "ubuntu" ]] ; then
+  brew bundle --file Brewfile-ubuntu
+fi
+brew upgrade --greedy
 
-# Applications
-for installer in $(find . -maxdepth 2 -name _install.sh | sort -n) ; do
-  source "$installer"
-done
 
-# Configuration files
-stow vim -t "$HOME"
+# Apps configuration
+source 'config/config.sh'
+
+if [[ $(os_name) == "macos" ]] ; then
+  stow macos -t "$HOME"
+elif [[ $(os_name) == "ubuntu" ]] ; then
+  stow ubuntu -t "$HOME"
+fi

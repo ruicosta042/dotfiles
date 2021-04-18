@@ -1,0 +1,70 @@
+[user]
+  name = __GIT_USERNAME__
+  email = __GIT_EMAIL__
+
+[alias]
+  alias = "!git config --get-regexp '^alias\\.' | fzf"  # search aliases
+
+  ad = add
+  br = branch
+  brlg = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+  brD = branch --delete --force
+  brd = branch --delete
+  brdm = "!git branch --merged | grep -v '\\*' | xargs -n 1 git branch -d"    # Delete merged
+  brm = branch -m
+  ch = checkout
+  chb = checkout -b
+  cl = clone
+  cm = commit --verbose
+  cma = commit --amend
+  cman = commit --amend --no-edit
+  cmm = commit --verbose --message
+  cp = cherry-pick
+  cpa = cherry-pick --abort
+  cpc = cherry-pick --continue
+  fe = fetch
+  fm = "!f() { git log --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cd%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --decorate --date=short --grep=$1; }; f" # Find commits per commits message
+  lg = !git log --color=always --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cr%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --abbrev-commit \
+    | sed 's/ ago//' \
+    | sed -E 's/([0-9]+) seconds/\\1s/' \
+    | sed -E 's/([0-9]+) minutes/\\1m/' \
+    | sed -E 's/([0-9]+) hours/\\1h/' \
+    | sed -E 's/([0-9]+) days/\\1D/' \
+    | sed -E 's/([0-9]+) weeks/\\1W/' \
+    | sed -E 's/([0-9]+) months/\\1M/' \
+    | less --RAW-CONTROL-CHARS --chop-long-lines    # tig inspired log
+  pl = pull
+  plr = pull --rebase
+  ps = push
+  psf = push --force-with-lease
+  psu = push -u
+  rb = rebase
+  rba = rebase --abort
+  rbc = rebase --continue
+  rbi = rebase --interactive
+  rs = reset
+  rt = remote -vv                     # List remote branches
+  rtdm = remote prune                 # Delete remote merged branches
+  rta = remote add                    # Add new remote branch
+  sh = stash
+  shc = stash clear
+  shl = stash list
+  shp = stash pop
+  shu = stash push
+  sl = shortlog -c -s                 # Show number of commits per author
+  st = status --short --branch
+  sw = show
+  swfc = show --pretty="" --name-only # List files on commit
+  
+
+[core]
+  editor = vim
+
+[diff]
+  tool = vimdiff
+
+[merge]
+  tool = vimdiff
+
+[difftool]
+  prompt = false
