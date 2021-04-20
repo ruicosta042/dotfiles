@@ -35,6 +35,7 @@
   "shellcheck.exclude": ["SC1090", "SC1091"],
   "shellcheck.executablePath": "__SHELLCHECK_EXECUTABLE_PATH__",
   "shellcheck.run": "onSave",
+  "stylelint.stylelintPath": "./node_modules/stylelint",
   "terminal.integrated.shell.osx": "__INTEGRATED_SHELL_OSX_PATH__",
   "todo.colors.cancelled": "#4c566a",
   "todo.colors.code": "#88c0d0",
