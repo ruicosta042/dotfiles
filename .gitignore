@@ -6,7 +6,6 @@ Brewfile-mac.lock.json
 macos/.dir_colors
 macos/.gitconfig
 macos/.inputrc
-/macos/.task
 macos/.wakatime.cfg
 macos/.zshrc
 /macos/Library/Application\ Support/Code

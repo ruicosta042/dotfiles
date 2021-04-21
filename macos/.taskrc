@@ -11,10 +11,10 @@
 # Use the command 'task show' to see all defaults and overrides
 
 # Files
-data.location=~/.task
+data.location=~/.tasks
 
 # UI
-include ~/.task/nord.theme
+include ~/.taskwarrior/nord.theme
 
 # Aliases
 alias.a=add

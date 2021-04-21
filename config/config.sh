@@ -20,6 +20,10 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 vim +PlugInstall +qall
 
 
+# taskwarrior
+git clone git@github.com:ruicosta042/tasks.git "$HOME"/.tasks
+
+
 # vscode
 source 'config/vscode/install.sh'
 
