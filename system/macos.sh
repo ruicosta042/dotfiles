@@ -35,8 +35,8 @@ defaults write NSGlobalDomain PMPrintingExpandedStateForPrint -bool true
 defaults write NSGlobalDomain PMPrintingExpandedStateForPrint2 -bool true
 
 # Set a fast keyboard repeat rate
-defaults write NSGlobalDomain KeyRepeat -int 6
-defaults write NSGlobalDomain InitialKeyRepeat -int 15
+defaults write NSGlobalDomain KeyRepeat -int 12
+defaults write NSGlobalDomain InitialKeyRepeat -int 25
 
 # Disable the “Are you sure you want to open this application?” dialog
 defaults write com.apple.LaunchServices LSQuarantine -bool false
