@@ -29,6 +29,7 @@ vscode_extensions=(
   mikestead.dotenv
   mkxml.vscode-filesize
   qinjia.seti-icons
+  rangav.vscode-thunder-client
   rsbondi.highlight-words
   shd101wyy.markdown-preview-enhanced
   SirTori.indenticator
