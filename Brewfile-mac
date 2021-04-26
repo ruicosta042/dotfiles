@@ -7,3 +7,4 @@ cask 'rambox'               # email/messaging
 cask 'rectangle'            # window manager
 cask 'runjs'                # js/ts repl
 cask 'zoom'                 # video messaging
+cask 'free-ruler'           # screen ruler
