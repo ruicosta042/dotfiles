@@ -68,3 +68,9 @@
 
 [difftool]
   prompt = false
+
+[init]
+	defaultBranch = main
+
+[fetch]
+  prune = true                        # remove local branches that have been deleted upstream
