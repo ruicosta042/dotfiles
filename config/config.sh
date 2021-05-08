@@ -13,6 +13,8 @@ pip3 install --user -r requirements.txt
 python3 updateHostsFile.py --auto --replace --backup --flush-dns-cache --compress
 cd ../..
 rm -rf hosts/hosts
+# comment out chtbl.com so that podcasts (conan, bill maher) can dowload
+sudo sed -e '/chtbl/s/^/#/g' -i /etc/hosts
 
 # vim
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
