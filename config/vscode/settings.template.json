@@ -31,6 +31,7 @@
   "javascript.suggest.autoImports": false,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "scm.defaultViewMode": "tree",
   "shellcheck.disableVersionCheck": true,
   "shellcheck.exclude": ["SC1090", "SC1091"],
   "shellcheck.executablePath": "__SHELLCHECK_EXECUTABLE_PATH__",
