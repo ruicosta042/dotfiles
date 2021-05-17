@@ -23,6 +23,7 @@
   cpa = cherry-pick --abort
   cpc = cherry-pick --continue
   fe = fetch
+  fep = fetch --prune
   fm = "!f() { git log --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cd%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --decorate --date=short --grep=$1; }; f" # Find commits per commits message
   lg = !git log --color=always --pretty=format:'%C(dim blue)%h%Creset %C(bold blue)%cr%Creset %C(yellow)%d%Creset %s %C(bold blue)%an%Creset' --abbrev-commit \
     | sed 's/ ago//' \
