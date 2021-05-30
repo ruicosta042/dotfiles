@@ -8,6 +8,7 @@
       "Visual Bell": true,
       "Silence Bell": true,
       "Mouse Reporting": 1,
+      "Mouse Reporting allow mouse wheel": 1,
       "Ansi 0 Color": {
         "Red Component": 0.17621420323848724,
         "Color Space": "Calibrated",

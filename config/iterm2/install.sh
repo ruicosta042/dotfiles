@@ -8,4 +8,5 @@ defaults write com.googlecode.iterm2 PromptOnQuit 0;
 defaults write com.googlecode.iterm2 QuitWhenAllWindowsClosed 1;
 defaults write com.googlecode.iterm2 SUEnableAutomaticChecks 1;
 defaults write com.googlecode.iterm2 "Mouse Reporting" 1;
+defaults write com.googlecode.iterm2 "Mouse Reporting allow mouse wheel" 1;
 # can't set the theme to minimal
